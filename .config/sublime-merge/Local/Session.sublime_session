@@ -1,0 +1,60 @@
+{
+	"last_version": 2091,
+	"new_window_session":
+	{
+		"window_height": 813.0,
+		"window_width": 1500.0
+	},
+	"next_update_check": 1709786605,
+	"project_dir": "/home/hanshi",
+	"recent":
+	[
+		{
+			"expanded_refs":
+			{
+				"refs/remotes": true,
+				"refs/remotes/origin": true
+			},
+			"locations_tab_selected": false,
+			"path": "/home/hanshi/Programming/JS/lens",
+			"previous_commit_messages":
+			[
+			],
+			"search":
+			{
+				"history":
+				[
+				]
+			},
+			"show_untracked_files": false,
+			"side_bar_visible": true,
+			"table_of_contents_tab_selected": false,
+			"table_of_contents_tree_mode": false
+		}
+	],
+	"select_repository":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"window_positions":
+	{
+		"/home/hanshi/Programming/JS/lens": "0,0,1,0,0,210,113,1710,926,1920,1080,1"
+	},
+	"windows":
+	[
+		{
+			"tabs":
+			[
+				{
+					"path": "/home/hanshi/Programming/JS/lens",
+					"selected": true
+				}
+			]
+		}
+	]
+}

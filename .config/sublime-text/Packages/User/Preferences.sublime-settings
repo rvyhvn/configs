@@ -1,0 +1,41 @@
+{
+	"font_face": "IosevkaTerm Nerd Font Mono",
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
+	"font_size": 13,
+	"caret_style": "blink",
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	"caret_extra_width": 20,
+	"caret_blink_interval": 0.5,
+	"inverse_caret_state": true,
+	"highlight_line": true,
+	"block_caret": true,
+	"match_brackets": true,
+	"bold_folder_labels": false,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Icon Fonts",
+		"Vintage",
+	],
+	"theme": "gruvbox.sublime-theme",
+	"indent_guide_options":
+	[	"draw_normal",
+		"draw_active",
+		"solid,"
+	],
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"save_on_focus_lost": true,
+	"index_files": false,
+	"folder_exclude_patterns": [
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		".venv",
+	],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": "all",
+}

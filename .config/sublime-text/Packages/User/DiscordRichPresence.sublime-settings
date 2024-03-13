@@ -1,0 +1,12 @@
+{
+    "state": "\uD83D\uDCC2 | {project}",
+    "details": "\uD83D\uDD27 | {file}",
+    "start_state": "Idle",
+    "time_per_file": false,
+    "show_elapsed_time": true,
+    "project_name": [
+        "project_folder_name",
+        "project_file_name",
+        "folder_name"
+    ]
+}

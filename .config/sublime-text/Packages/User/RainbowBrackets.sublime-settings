@@ -1,0 +1,80 @@
+/*
+    RainbowBrackets user settings in here override the default
+*/
+{
+    "debug": false,
+    "default_config": {
+        "bracket_pairs": {
+            "(": ")",
+            "[": "]",
+            "{": "}"
+        },
+        "coloring": true,
+        "enabled": true,
+        "ignored_scopes": [
+            "comment",
+            "string",
+            "constant"
+        ],
+        "rainbow_colors": [
+            "#E06C75",
+            "#E5C07B", // level1
+            "#61AFEF", // level2
+            "#D19A66", // level3
+            "#98C379", // level4
+            "#C678DD", // level5
+            "#56B6C2" // level6
+        ],
+        "mismatch_color": "#FF0000"
+    },
+    "syntax_specific": {
+        "Bash": {
+            "coloring": false,
+            "ignored_scopes": "keyword"
+        },
+        "JSON": {
+            "bracket_pairs": {
+                "{": "}",
+                "[": "]",
+            },
+            "extensions": [
+                ".json",
+                ".sublime-settings",
+                ".sublime-menu",
+                ".sublime-build",
+                ".sublime-keymap",
+                ".sublime-commands",
+                ".sublime-theme",
+                ".sublime-color-scheme"
+            ],
+            "ignored_scopes": [
+                "comment",
+                "string"
+            ]
+        },
+        "Regular Expression": {
+            "extensions": [
+                ".sublime-syntax"
+            ],
+            "ignored_scopes": [
+                "meta.set.regexp",
+                "constant"
+            ]
+        },
+        "Scheme": {
+            "bracket_pairs": {
+                "(": ")",
+                "[": "]",
+            },
+            "extensions": [
+                ".scm",
+                ".ss"
+            ],
+            "ignored_scopes": [
+                "comment",
+                "string",
+                "constant"
+            ]
+        }
+    }
+}

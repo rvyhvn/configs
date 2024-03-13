@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: wcmatch
+Version: 1.2.1
+Summary: Python wcmatch module which provides enhanced file globbing and matching
+Home-page: https://github.com/facelessuser/sublime-wcmatch/issues

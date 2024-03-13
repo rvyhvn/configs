@@ -1,0 +1,1286 @@
+{
+	"file_history":
+	[
+		"/home/hanshi/Programming/Python/django-projects/dikasi/manage.py",
+		"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_users.py",
+		"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_threads.py",
+		"/home/hanshi/Programming/Python/django-projects/dikasi/apps/accounts/admin.py",
+		"/home/hanshi/Programming/Python/django-projects/dikasi/.env",
+		"/home/hanshi/Programming/Python/django-projects/dikasi/core/settings.py",
+		"/home/hanshi/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/hanshi/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/BusinessContact.java",
+		"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/PersonalContact.java",
+		"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/utils/Hint.java",
+		"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/App.java",
+		"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/Contact.java",
+		"/home/hanshi/Programming/JS/lens/lens-simulation/index.js",
+		"/home/hanshi/Programming/JS/lens/lens-simulation/index.html",
+		"/home/hanshi/Programming/JS/lens/mirror-simulation/index.html",
+		"/home/hanshi/Programming/JS/testing-lens/main.js",
+		"/home/hanshi/Programming/JS/lens/main.js",
+		"/home/hanshi/Programming/JS/lens/main.js.bak",
+		"/home/hanshi/Programming/JS/lens/testing.js",
+		"/home/hanshi/Programming/Java/project/xplora/app/src/main/java/org/gnulag/xplora/models/RedBlackTreeMap.java",
+		"/home/hanshi/Programming/JS/lens/punyafaiz.js",
+		"/home/hanshi/tesjava/app/src/main/java/tugas/pbo/App.java",
+		"/home/hanshi/tesjava/app/src/main/java/tugas/pbo/models/Librarian.java",
+		"/home/hanshi/.config/sublime-text/Packages/User/LSP-eslint.sublime-settings",
+		"/home/hanshi/.config/sublime-text/Packages/LSP-eslint/LSP-eslint.sublime-settings",
+		"/home/hanshi/.config/sublime-text/Packages/RainbowBrackets/RainbowBrackets.sublime-settings",
+		"/home/hanshi/.config/sublime-text/Packages/User/RainbowBrackets.sublime-settings",
+		"/home/hanshi/.config/sublime-text/Packages/Discord Rich Presence/DiscordRichPresence.sublime-settings",
+		"/home/hanshi/.config/sublime-text/Packages/User/DiscordRichPresence.sublime-settings",
+		"/home/hanshi/Programming/PHP/xss/tes.py",
+		"/home/hanshi/Programming/PHP/xss/index.php"
+	],
+	"folder_history":
+	[
+		"/home/hanshi/Programming/JS/raysims",
+		"/home/hanshi/Programming/Python/django-projects/dikasi",
+		"/home/hanshi/Programming/Java/praktikum/tugas3",
+		"/home/hanshi/Programming/Java/praktikum",
+		"/home/hanshi/Programming/JS/lens",
+		"/home/hanshi",
+		"/home/hanshi/Programming/JS/testing-lens",
+		"/home/hanshi/Programming/Java/project/xplora",
+		"/home/hanshi/tesjava",
+		"/home/hanshi/Programming/PHP/xss"
+	],
+	"last_version": 4169,
+	"last_window_id": 22,
+	"log_indexing": false,
+	"next_update_check": 1710213741,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			72.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Pers",
+						"PersonalContact"
+					],
+					[
+						"get",
+						"getName()"
+					],
+					[
+						"save",
+						"saveAsBusinessContactHint();"
+					],
+					[
+						"realObject",
+						"realObjectHeightPoint"
+					],
+					[
+						"isAtFocal",
+						"isAtFocalPrime"
+					],
+					[
+						"image",
+						"imageObjectHeightPoint"
+					],
+					[
+						"handle",
+						"handleRealObjectHeightPointtMouseUp"
+					],
+					[
+						"realObje",
+						"handleRealObjectHeightPointtMove"
+					],
+					[
+						"imageObj",
+						"imageObjectHeightPoint"
+					],
+					[
+						"is",
+						"isVisible"
+					],
+					[
+						"ima",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageO",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageo",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObject",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObje",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObjec",
+						"imageObjectHeightPoint"
+					],
+					[
+						"realObj",
+						"realObjectHeightPoint"
+					],
+					[
+						"focal",
+						"focalPrimePoint"
+					],
+					[
+						"imageobje",
+						"imageObjectHeight"
+					],
+					[
+						"focalP",
+						"focalPointX"
+					],
+					[
+						"focalPrime",
+						"focalPrimePoint"
+					],
+					[
+						"magin",
+						"magnifiedImageObjectDistance"
+					],
+					[
+						"imageOb",
+						"imageObjectHeightPoint"
+					],
+					[
+						"magni",
+						"magnifiedImageObjectDistance"
+					],
+					[
+						"realObjectH",
+						"realObjectHeightPoint"
+					],
+					[
+						"realObjectHei",
+						"realObjectHeightPoint"
+					],
+					[
+						"realObjectHe",
+						"realObjectHeightPoint"
+					],
+					[
+						"focalPrim",
+						"focalPrimePoint"
+					],
+					[
+						"imageObjectHeighit",
+						"imageObjectHeightPoint"
+					],
+					[
+						"realObjectHein",
+						"realObjectHeightPoint"
+					],
+					[
+						"focalPrimeL",
+						"focalPrimeLinePoints"
+					],
+					[
+						"imageObjectHeiig",
+						"imageObjectHeightPoint"
+					],
+					[
+						"focalPrimeLine",
+						"focalPrimeLinePoints"
+					],
+					[
+						"imageObjectHei",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObjectH",
+						"imageObjectHeightPoint"
+					],
+					[
+						"focalPrimeP",
+						"focalPrimeLinePoints"
+					],
+					[
+						"imageObjectHeig",
+						"imageObjectHeightPoint"
+					],
+					[
+						"focalLine",
+						"focalLinePointsIfObjectMoreThanWidth"
+					],
+					[
+						"imageoBj",
+						"imageObjectHeightPoint"
+					],
+					[
+						"realObjectHeig",
+						"realObjectHeightPoint"
+					],
+					[
+						"magnifi",
+						"magnifiedImageObjectDistance"
+					],
+					[
+						"focalPo",
+						"focalPointDistance"
+					],
+					[
+						"realObjectHeigh",
+						"realObjectHeightPoint"
+					],
+					[
+						"real",
+						"realObjectDistance"
+					],
+					[
+						"distance",
+						"imageObjectDistance"
+					],
+					[
+						"realO",
+						"realObjectDistance"
+					],
+					[
+						"focalPio",
+						"focalPointLength"
+					],
+					[
+						"handleFocalPi",
+						"handleFocalPointAccentMouseUp"
+					],
+					[
+						"focalPoint",
+						"focalPointAccent"
+					],
+					[
+						"handleFocal",
+						"handleFocalPointAccentMouseDown"
+					],
+					[
+						"focalPoin",
+						"focalPointAccent"
+					],
+					[
+						"handleRealObje",
+						"handleRealObjectMouseDown"
+					],
+					[
+						"iamgeObj",
+						"imageObjectHeightPoint"
+					],
+					[
+						"object",
+						"objectHeightLine"
+					],
+					[
+						"objectHei",
+						"objectHeightLine"
+					],
+					[
+						"handleRealObjectDrag",
+						"handleRealObjectDragStart"
+					],
+					[
+						"had",
+						"handleFocalPointAccentDragMove"
+					],
+					[
+						"getAbsolute",
+						"getAbsolutePosition"
+					],
+					[
+						"realObjec",
+						"realObjectLabel"
+					],
+					[
+						"inter",
+						"intersectionY"
+					],
+					[
+						"intersec",
+						"intersectionY"
+					],
+					[
+						"remoev",
+						"removeIf(${1:filter})"
+					],
+					[
+						"remove",
+						"remove(${1:index})"
+					],
+					[
+						"book",
+						"bookToDelete"
+					],
+					[
+						"dest",
+						"destroyChildren"
+					],
+					[
+						"draw",
+						"drawLineWithDDA"
+					],
+					[
+						"drag",
+						"dragBoundFunc?"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"theme",
+						"gruvbox: Select Theme"
+					],
+					[
+						"lsp",
+						"LSP: Enable Language Server in Project"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"format",
+						"LSP: Format File"
+					],
+					[
+						"map",
+						"View: Toggle Minimap"
+					],
+					[
+						"distr",
+						"View: Toggle Distraction Free"
+					],
+					[
+						"git push",
+						"Git: Push Current Branch"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add All"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"gitpush",
+						"Git: Push Current Branch"
+					],
+					[
+						"git push ",
+						"Git: Push Current Branch"
+					],
+					[
+						"discord",
+						"Discord Rich Presence: Disconnect"
+					],
+					[
+						"disiscord",
+						"Discord Rich Presence: Connect to Discord"
+					],
+					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"brow",
+						"Browse Mode: Left Sidebar"
+					],
+					[
+						"browser",
+						"Browse Mode: Right Sidebar"
+					],
+					[
+						"lsp-esline",
+						"Preferences: LSP-eslint Settings"
+					],
+					[
+						"rainbow",
+						"Preferences: RainbowBrackets Settings"
+					],
+					[
+						"esline",
+						"Preferences: LSP-eslint Settings"
+					],
+					[
+						"server",
+						"File: Open In Browser - Testing Server"
+					],
+					[
+						"git com",
+						"Git: Commit"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"pre",
+						"Preferences: Settings"
+					],
+					[
+						"prefere",
+						"Preferences: Settings"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hanshi/Programming/Python/django-projects/dikasi/manage.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_users.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_threads.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/apps/accounts/admin.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/.env",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/core/settings.py",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/BusinessContact.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/PersonalContact.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/utils/Hint.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/App.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/Contact.java",
+				"/home/hanshi/Programming/JS/testing-lens/main.js",
+				"/home/hanshi/Programming/JS/lens/lens-simulation/index.js",
+				"/home/hanshi/Programming/JS/lens/lens-simulation/index.html",
+				"/home/hanshi/Programming/JS/lens/mirror-simulation/index.html",
+				"/home/hanshi/Programming/JS/lens/main.js",
+				"/home/hanshi/Programming/JS/lens/main.js.bak",
+				"/home/hanshi/Programming/JS/lens/testing.js",
+				"/home/hanshi/Programming/JS/lens/punyafaiz.js",
+				"/home/hanshi/tesjava/app/src/main/java/tugas/pbo/App.java",
+				"/home/hanshi/tesjava/app/src/main/java/tugas/pbo/models/Librarian.java",
+				"/home/hanshi/Programming/PHP/xss/tes.py",
+				"/home/hanshi/Programming/PHP/xss/index.php"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 39.0
+			},
+			"input":
+			{
+				"height": 72.0
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 242.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 74.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"geen",
+						"scripts/generate_users.py"
+					],
+					[
+						"script",
+						"scripts/generate_threads.py"
+					],
+					[
+						"setting",
+						"core/settings.py"
+					],
+					[
+						"main",
+						"app/src/main/java/tugas/pbo/App.java"
+					],
+					[
+						"busin",
+						"app/src/main/java/tugas/pbo/models/BusinessContact.java"
+					],
+					[
+						"person",
+						"app/src/main/java/tugas/pbo/models/PersonalContact.java"
+					],
+					[
+						"ma",
+						"main.js"
+					],
+					[
+						"m",
+						"main.js"
+					],
+					[
+						"librar",
+						"app/src/main/java/tugas/pbo/models/Librarian.java"
+					],
+					[
+						"App",
+						"app/src/main/java/tugas/pbo/App.java"
+					],
+					[
+						"h",
+						"app/src/main/java/tugas/pbo/utils/Hint.java"
+					],
+					[
+						"personal",
+						"app/src/main/java/tugas/pbo/models/PersonalContact.java"
+					],
+					[
+						"contact",
+						"app/src/main/java/tugas/pbo/models/BusinessContact.java"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 379.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Pers",
+						"PersonalContact"
+					],
+					[
+						"get",
+						"getName()"
+					],
+					[
+						"save",
+						"saveAsBusinessContactHint();"
+					],
+					[
+						"realObject",
+						"realObjectHeightPoint"
+					],
+					[
+						"isAtFocal",
+						"isAtFocalPrime"
+					],
+					[
+						"image",
+						"imageObjectHeightPoint"
+					],
+					[
+						"handle",
+						"handleRealObjectHeightPointtMouseUp"
+					],
+					[
+						"realObje",
+						"handleRealObjectHeightPointtMove"
+					],
+					[
+						"imageObj",
+						"imageObjectHeightPoint"
+					],
+					[
+						"is",
+						"isVisible"
+					],
+					[
+						"ima",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageO",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageo",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObject",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObje",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObjec",
+						"imageObjectHeightPoint"
+					],
+					[
+						"realObj",
+						"realObjectHeightPoint"
+					],
+					[
+						"focal",
+						"focalPrimePoint"
+					],
+					[
+						"imageobje",
+						"imageObjectHeight"
+					],
+					[
+						"focalP",
+						"focalPointX"
+					],
+					[
+						"focalPrime",
+						"focalPrimePoint"
+					],
+					[
+						"magin",
+						"magnifiedImageObjectDistance"
+					],
+					[
+						"imageOb",
+						"imageObjectHeightPoint"
+					],
+					[
+						"magni",
+						"magnifiedImageObjectDistance"
+					],
+					[
+						"realObjectH",
+						"realObjectHeightPoint"
+					],
+					[
+						"realObjectHei",
+						"realObjectHeightPoint"
+					],
+					[
+						"realObjectHe",
+						"realObjectHeightPoint"
+					],
+					[
+						"focalPrim",
+						"focalPrimePoint"
+					],
+					[
+						"imageObjectHeighit",
+						"imageObjectHeightPoint"
+					],
+					[
+						"realObjectHein",
+						"realObjectHeightPoint"
+					],
+					[
+						"focalPrimeL",
+						"focalPrimeLinePoints"
+					],
+					[
+						"imageObjectHeiig",
+						"imageObjectHeightPoint"
+					],
+					[
+						"focalPrimeLine",
+						"focalPrimeLinePoints"
+					],
+					[
+						"imageObjectHei",
+						"imageObjectHeightPoint"
+					],
+					[
+						"imageObjectH",
+						"imageObjectHeightPoint"
+					],
+					[
+						"focalPrimeP",
+						"focalPrimeLinePoints"
+					],
+					[
+						"imageObjectHeig",
+						"imageObjectHeightPoint"
+					],
+					[
+						"focalLine",
+						"focalLinePointsIfObjectMoreThanWidth"
+					],
+					[
+						"imageoBj",
+						"imageObjectHeightPoint"
+					],
+					[
+						"realObjectHeig",
+						"realObjectHeightPoint"
+					],
+					[
+						"magnifi",
+						"magnifiedImageObjectDistance"
+					],
+					[
+						"focalPo",
+						"focalPointDistance"
+					],
+					[
+						"realObjectHeigh",
+						"realObjectHeightPoint"
+					],
+					[
+						"real",
+						"realObjectDistance"
+					],
+					[
+						"distance",
+						"imageObjectDistance"
+					],
+					[
+						"realO",
+						"realObjectDistance"
+					],
+					[
+						"focalPio",
+						"focalPointLength"
+					],
+					[
+						"handleFocalPi",
+						"handleFocalPointAccentMouseUp"
+					],
+					[
+						"focalPoint",
+						"focalPointAccent"
+					],
+					[
+						"handleFocal",
+						"handleFocalPointAccentMouseDown"
+					],
+					[
+						"focalPoin",
+						"focalPointAccent"
+					],
+					[
+						"handleRealObje",
+						"handleRealObjectMouseDown"
+					],
+					[
+						"iamgeObj",
+						"imageObjectHeightPoint"
+					],
+					[
+						"object",
+						"objectHeightLine"
+					],
+					[
+						"objectHei",
+						"objectHeightLine"
+					],
+					[
+						"handleRealObjectDrag",
+						"handleRealObjectDragStart"
+					],
+					[
+						"had",
+						"handleFocalPointAccentDragMove"
+					],
+					[
+						"getAbsolute",
+						"getAbsolutePosition"
+					],
+					[
+						"realObjec",
+						"realObjectLabel"
+					],
+					[
+						"inter",
+						"intersectionY"
+					],
+					[
+						"intersec",
+						"intersectionY"
+					],
+					[
+						"remoev",
+						"removeIf(${1:filter})"
+					],
+					[
+						"remove",
+						"remove(${1:index})"
+					],
+					[
+						"book",
+						"bookToDelete"
+					],
+					[
+						"dest",
+						"destroyChildren"
+					],
+					[
+						"draw",
+						"drawLineWithDDA"
+					],
+					[
+						"drag",
+						"dragBoundFunc?"
+					]
+				]
+			},
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"theme",
+						"gruvbox: Select Theme"
+					],
+					[
+						"lsp",
+						"LSP: Enable Language Server in Project"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
+						"format",
+						"LSP: Format File"
+					],
+					[
+						"map",
+						"View: Toggle Minimap"
+					],
+					[
+						"distr",
+						"View: Toggle Distraction Free"
+					],
+					[
+						"git push",
+						"Git: Push Current Branch"
+					],
+					[
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add All"
+					],
+					[
+						"wrap",
+						"Word Wrap: Toggle"
+					],
+					[
+						"gitpush",
+						"Git: Push Current Branch"
+					],
+					[
+						"git push ",
+						"Git: Push Current Branch"
+					],
+					[
+						"discord",
+						"Discord Rich Presence: Disconnect"
+					],
+					[
+						"disiscord",
+						"Discord Rich Presence: Connect to Discord"
+					],
+					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"brow",
+						"Browse Mode: Left Sidebar"
+					],
+					[
+						"browser",
+						"Browse Mode: Right Sidebar"
+					],
+					[
+						"lsp-esline",
+						"Preferences: LSP-eslint Settings"
+					],
+					[
+						"rainbow",
+						"Preferences: RainbowBrackets Settings"
+					],
+					[
+						"esline",
+						"Preferences: LSP-eslint Settings"
+					],
+					[
+						"server",
+						"File: Open In Browser - Testing Server"
+					],
+					[
+						"git com",
+						"Git: Commit"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"pre",
+						"Preferences: Settings"
+					],
+					[
+						"prefere",
+						"Preferences: Settings"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/hanshi/Programming/Python/django-projects/dikasi/manage.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_users.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_threads.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/apps/accounts/admin.py",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/.env",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/core/settings.py",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/BusinessContact.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/PersonalContact.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/utils/Hint.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/App.java",
+				"/home/hanshi/Programming/Java/praktikum/tugas3/app/src/main/java/tugas/pbo/models/Contact.java",
+				"/home/hanshi/Programming/JS/testing-lens/main.js",
+				"/home/hanshi/Programming/JS/lens/lens-simulation/index.js",
+				"/home/hanshi/Programming/JS/lens/lens-simulation/index.html",
+				"/home/hanshi/Programming/JS/lens/mirror-simulation/index.html",
+				"/home/hanshi/Programming/JS/lens/main.js",
+				"/home/hanshi/Programming/JS/lens/main.js.bak",
+				"/home/hanshi/Programming/JS/lens/testing.js",
+				"/home/hanshi/Programming/JS/lens/punyafaiz.js",
+				"/home/hanshi/tesjava/app/src/main/java/tugas/pbo/App.java",
+				"/home/hanshi/tesjava/app/src/main/java/tugas/pbo/models/Librarian.java",
+				"/home/hanshi/Programming/PHP/xss/tes.py",
+				"/home/hanshi/Programming/PHP/xss/index.php"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 39.0
+			},
+			"input":
+			{
+				"height": 72.0
+			},
+			"menu_visible": true,
+			"output.LSP Log Panel":
+			{
+				"height": 0.0
+			},
+			"output.diagnostics":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.git":
+			{
+				"height": 242.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,1920,1040,1920,1080,0",
+			"replace":
+			{
+				"height": 74.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"geen",
+						"scripts/generate_users.py"
+					],
+					[
+						"script",
+						"scripts/generate_threads.py"
+					],
+					[
+						"setting",
+						"core/settings.py"
+					],
+					[
+						"main",
+						"app/src/main/java/tugas/pbo/App.java"
+					],
+					[
+						"busin",
+						"app/src/main/java/tugas/pbo/models/BusinessContact.java"
+					],
+					[
+						"person",
+						"app/src/main/java/tugas/pbo/models/PersonalContact.java"
+					],
+					[
+						"ma",
+						"main.js"
+					],
+					[
+						"m",
+						"main.js"
+					],
+					[
+						"librar",
+						"app/src/main/java/tugas/pbo/models/Librarian.java"
+					],
+					[
+						"App",
+						"app/src/main/java/tugas/pbo/App.java"
+					],
+					[
+						"h",
+						"app/src/main/java/tugas/pbo/utils/Hint.java"
+					],
+					[
+						"personal",
+						"app/src/main/java/tugas/pbo/models/PersonalContact.java"
+					],
+					[
+						"contact",
+						"app/src/main/java/tugas/pbo/models/BusinessContact.java"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 379.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 21
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
