@@ -16,6 +16,11 @@ keymap.set('n', 'k', 'j')
 
 keymap.set('n', '<leader><cr>', ':noh<cr>')
 
+keymap.set('n', '<A-Down>', '<cmd>m+1<CR>==gv')
+keymap.set('x', '<A-Down>', '<cmd>m+1<CR>==gv')
+
+keymap.set('n', '<A-Up>', '<cmd>m-2<CR>==gv')
+keymap.set('x', '<A-Up>', '<cmd>m-2<CR>==gv')
 
 
 -- Toggle current line or with count

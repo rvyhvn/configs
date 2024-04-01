@@ -1,6 +1,7 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "0236521ea582747b58869cb72f70ccfa967d2e89" },
   "barbar.nvim": { "branch": "master", "commit": "dd852401ee902745b67fc09a83d113b3fe82a96f" },
+  "carbon-now.nvim": { "branch": "main", "commit": "4524d2b347830257bb9357d45c4f934960058476" },
   "coc.nvim": { "branch": "release", "commit": "9c079ad79d66d4ede7886cc4094a822352559502" },
   "dressing.nvim": { "branch": "master", "commit": "6f212262061a2120e42da0d1e87326e8a41c0478" },
   "gruvbox.nvim": { "branch": "main", "commit": "6e4027ae957cddf7b193adfaec4a8f9e03b4555f" },

@@ -108,7 +108,16 @@ require("lazy").setup({
       -- your configuration comes here
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
-    }
-  }
+    },
+  },
+  {
+
+    "ellisonleao/carbon-now.nvim",
+    lazy = true,
+    cmd = "CarbonNow",
+    ---@param opts cn.ConfigSchema
+    opts = {}
+  },
+
 })
 require("base")
