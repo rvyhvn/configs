@@ -33,5 +33,7 @@
 	"htmldjango.djhtml.tabWidth": 2,
 	"htmldjango.formatting.provider": "djhtml",
 	"volar.autoClosingTags": true,
-	"coc.preferences.formatOnSave": true
+	"coc.preferences.formatOnSave": true,
+	"solargraph.autoformat": true,
+	"solargraph.formatting": true
 }

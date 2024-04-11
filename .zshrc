@@ -5,7 +5,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=/opt/nvim-linux64/bin:$PATH
 # export PATH=/opt/arduino-ide_2.2.1_Linux_64bit:$PATH
-export PATH=/opt/ghidra_10.4_PUBLIC:$PATH
+export PATH=/opt/ghidra_11.0.1_PUBLIC:$PATH
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -72,7 +72,7 @@ export PATH=/opt/ghidra_10.4_PUBLIC:$PATH
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting command-not-found sudo ruby python web-search zsh-autosuggestions)
+plugins=(git zsh-syntax-highlighting command-not-found ruby python web-search zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,7 +114,7 @@ alias nv="nvim"
 alias pls="sudo"
 alias tm="tmux"
 alias cls="clear"
-
+alias cd="z"
 
 export VIMINIT='source $MYVIMRC'
 export MYVIMRC='~/.config/nvim/init.lua'  #or any other location you want
@@ -300,7 +300,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # Created by `pipx` on 2023-10-19 13:51:56
 export PATH="$PATH:/home/hanshi/.local/bin"
-# eval "$(~/.rbenv/bin/rbenv init - zsh)"
 
 export M2_HOME=/opt/apache-maven-3.9.5
 export M2=$M2_HOME/bin
@@ -309,8 +308,8 @@ export PATH=$M2:$PATH
 source "$HOME/.cargo/bin"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval "$(zoxide init zsh)"
-eval $(thefuck --alias)
+eval $(thefuck --alias fk)
 # You can use whatever you want as an alias, like for Mondays:
 eval $(thefuck --alias FUCK)
 eval "$(navi widget zsh)"
-alias cd="z"
+eval "$(~/.rbenv/bin/rbenv init - zsh)"

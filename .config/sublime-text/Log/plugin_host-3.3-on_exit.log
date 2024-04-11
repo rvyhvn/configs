@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/opt/sublime_text/Lib/python33/sublime_plugin.py", line 944, in on_activated_async
+    run_view_callbacks('on_activated_async', view_id)
+  File "/opt/sublime_text/Lib/python33/sublime_plugin.py", line 714, in run_view_callbacks
+    callback(*args)
+  File "/opt/sublime_text/Lib/python33/sublime_plugin.py", line 190, in exception_handler
+    return event_handler(*args)
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/documents.py", line 362, in on_activated_async
+    if self.view.is_loading() or not is_regular_view(self.view):
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/documents.py", line 77, in is_regular_view
+    sheet = v.sheet()
+  File "/opt/sublime_text/Lib/python33/sublime.py", line 1262, in sheet
+    return make_sheet(self.sheet_id())
+  File "/opt/sublime_text/Lib/python33/sublime.py", line 1126, in make_sheet
+    if (sheet_id & 3) == 0:
+TypeError: unsupported operand type(s) for &: 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/documents.py", line 1013, in clear_async
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/session_view.py", line 86, in on_before_remove
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/code_lens.py", line 130, in clear_view
+  File "/opt/sublime_text/Lib/python33/sublime.py", line 1926, in update
+    for phantom, region in zip(self.phantoms, regions):
+TypeError: zip argument #2 must support iteration
+Traceback (most recent call last):
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/documents.py", line 1013, in clear_async
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/session_view.py", line 86, in on_before_remove
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/code_lens.py", line 130, in clear_view
+  File "/opt/sublime_text/Lib/python33/sublime.py", line 1926, in update
+    for phantom, region in zip(self.phantoms, regions):
+TypeError: zip argument #2 must support iteration
+Traceback (most recent call last):
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/core/windows.py", line 407, in destroy
+  File "/home/hanshi/configs/.config/sublime-text/Installed Packages/LSP.sublime-package/plugin/core/windows.py", line 347, in _end_sessions_async

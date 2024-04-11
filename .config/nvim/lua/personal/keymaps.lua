@@ -21,20 +21,26 @@ keymap.set('x', '<A-Down>', '<cmd>m+1<CR>==gv')
 
 keymap.set('n', '<A-Up>', '<cmd>m-2<CR>==gv')
 keymap.set('x', '<A-Up>', '<cmd>m-2<CR>==gv')
+keymap.set('n', '<leader>qf', '<Plug>(coc-fix-current)')
 
-
--- Toggle current line or with count
+--[[ Toggle current line or with count ]]
 -- vim.keymap.set('n', '<leader>/', function()
 --   return vim.v.count == 0
 --       and '<Plug>(comment_toggle_linewise_current)'
 --       or '<Plug>(comment_toggle_linewise_count)'
 -- end, { expr = true })
---
--- -- Toggle in Op-pending mode
--- vim.keymap.set('n', 'gc', '<Plug>(comment_toggle_linewise)')
---
--- -- Toggle in VISUAL mode
--- vim.keymap.set('x', '<leader>/', '<Plug>(comment_toggle_linewise_visual')
+
+vim.api.nvim_create_user_command('W', function()
+  vim.cmd('w !sudo tee % > /dev/null')
+  vim.cmd('edit!')
+end, { bang = true })
+
+-- Toggle in Op-pending mode
+vim.keymap.set('n', '<leader>//', '<Plug>(comment_toggle_linewise)')
+
+-- Toggle in VISUAL mode
+vim.keymap.set('x', '<leader>//', '<Plug>(comment_toggle_linewise_visual')
+
 -- Define a function to compile and run code based on filetype
 
 local utils = require("personal.autocmds") ---@type Utils

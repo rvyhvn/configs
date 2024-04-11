@@ -1,7 +1,7 @@
 {
 	"font_face": "IosevkaTerm Nerd Font Mono",
-	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
-	"font_size": 13,
+	"color_scheme": "gruvbox (Dark) (Soft) NDC.sublime-color-scheme",
+	"font_size": 15,
 	"caret_style": "blink",
 	"caret_extra_top": 0,
 	"caret_extra_bottom": 0,

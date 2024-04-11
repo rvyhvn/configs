@@ -98,6 +98,9 @@ require("lazy").setup({
     "mg979/vim-visual-multi",
   },
   {
+    "RRethy/nvim-treesitter-endwise",
+  },
+  {
     "folke/which-key.nvim",
     event = "VeryLazy",
     init = function()

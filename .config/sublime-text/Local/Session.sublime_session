@@ -1,6 +1,42 @@
 {
 	"file_history":
 	[
+		"/home/hanshi/Programming/JS/judi-parabola/index.html",
+		"/home/hanshi/Programming/JS/judi-parabola/main.js",
+		"/home/hanshi/main.py",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/utils/PostgreSQLJDBC.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/ContactController.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/Contact.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/ContactDAO.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/app.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/App.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build/resources/main/tes.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/bin/main/app.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build/tmp/compileJava/compileTransaction/stash-dir/ContactController.class.uniqueId1",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/tes.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build.gradle",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/BusinessContactController.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/BusinessContact.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/BusinessContactDAO.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/edit.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/show.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/index.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/show.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/index.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/edit.fxml",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/IndexController.java",
+		"/home/hanshi/configs/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/hanshi/configs/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/PersonalContact.java",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/app.fmxl",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/styles.css",
+		"/home/hanshi/Programming/Python/django-projects/dikasi/apps/forum/templates/forum/thread-list.html",
+		"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Dosen.java",
+		"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Mahasiswa.java",
+		"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Civitas.java",
+		"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/App.java",
 		"/home/hanshi/Programming/Python/django-projects/dikasi/manage.py",
 		"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_users.py",
 		"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_threads.py",
@@ -36,8 +72,11 @@
 	],
 	"folder_history":
 	[
-		"/home/hanshi/Programming/JS/raysims",
+		"/home/hanshi/Programming/JS/judi-parabola",
+		"/home/hanshi/Programming/Java/record/simple-contact-manager-example",
 		"/home/hanshi/Programming/Python/django-projects/dikasi",
+		"/home/hanshi/Programming/Java/praktikum/prak5",
+		"/home/hanshi/Programming/JS/raysims",
 		"/home/hanshi/Programming/Java/praktikum/tugas3",
 		"/home/hanshi/Programming/Java/praktikum",
 		"/home/hanshi/Programming/JS/lens",
@@ -48,9 +87,9 @@
 		"/home/hanshi/Programming/PHP/xss"
 	],
 	"last_version": 4169,
-	"last_window_id": 22,
+	"last_window_id": 23,
 	"log_indexing": false,
-	"next_update_check": 1710213741,
+	"next_update_check": 1712767128,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -68,12 +107,156 @@
 				"selected_items":
 				[
 					[
-						"Pers",
-						"PersonalContact"
+						"ArrayL",
+						"ArrayList<>()"
+					],
+					[
+						"setcell",
+						"setCellValueFactory(${1:value});"
+					],
+					[
+						"set",
+						"set(${1:newValue});"
+					],
+					[
+						"re",
+						"resources/"
+					],
+					[
+						"FXML",
+						"FXMLLoader"
+					],
+					[
+						"IOE",
+						"IOException"
 					],
 					[
 						"get",
 						"getName()"
+					],
+					[
+						"contacts",
+						"contactsTable"
+					],
+					[
+						"business",
+						"businessContacts"
+					],
+					[
+						"BusinessC",
+						"BusinessContactController"
+					],
+					[
+						"Busine",
+						"BusinessContact(${1:name}, ${2:phoneNumber}, ${3:email}, ${4:companyName}, ${5:jobTitle})"
+					],
+					[
+						"PersonalC",
+						"PersonalContactController"
+					],
+					[
+						"Date",
+						"Date(${1:year}, ${2:month}, ${3:date})"
+					],
+					[
+						"Perso",
+						"PersonalContact(${1:name}, ${2:phoneNumber}, ${3:email}, ${4:birthday})"
+					],
+					[
+						"Business",
+						"BusinessContactDAO"
+					],
+					[
+						"Contac",
+						"Contact(${1:name}, ${2:phoneNumber}, ${3:email})"
+					],
+					[
+						"cl",
+						"class"
+					],
+					[
+						"clas",
+						"class"
+					],
+					[
+						"con",
+						"simple.contact.manager.example.controllers"
+					],
+					[
+						"contact",
+						"simple.contact.manager.example.models.${0:*};"
+					],
+					[
+						"list",
+						"ListView;"
+					],
+					[
+						"personal",
+						"PersonalContactController"
+					],
+					[
+						"Personal",
+						"PersonalContactController"
+					],
+					[
+						"PersonalConta",
+						"PersonalContactDAO"
+					],
+					[
+						"PersonalCOn",
+						"PersonalContactDAO"
+					],
+					[
+						"person",
+						"PersonalContactDAO"
+					],
+					[
+						"Per",
+						"PersonalContact(${1:name}, ${2:phoneNumber}, ${3:email}, ${4:birthday})"
+					],
+					[
+						"Peros",
+						"PersonalContactDAO(${1:connection})"
+					],
+					[
+						"PersonalContact",
+						"PersonalContactDAO"
+					],
+					[
+						"PersonalCon",
+						"PersonalContactDAO"
+					],
+					[
+						"m",
+						"simple.contact.manager.example.utils.${0:*};"
+					],
+					[
+						"Calend",
+						"Calendar() {\n\t${0}\n}"
+					],
+					[
+						"simpel",
+						"simple.contact.manager.example.models.${0:*};"
+					],
+					[
+						"Drive",
+						"DriverManager;"
+					],
+					[
+						"super",
+						"super(${1:name}, ${2:phoneNumber}, ${3:email})"
+					],
+					[
+						"co",
+						"simple.contact.manager.example.models"
+					],
+					[
+						"mhs",
+						"mhs3"
+					],
+					[
+						"Pers",
+						"PersonalContact"
 					],
 					[
 						"save",
@@ -348,24 +531,76 @@
 				"selected_items":
 				[
 					[
-						"theme",
-						"gruvbox: Select Theme"
+						"push",
+						"Git: Push Current Branch"
 					],
 					[
-						"lsp",
-						"LSP: Enable Language Server in Project"
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add All"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"format",
+						"LSP: Format File"
+					],
+					[
+						"indext",
+						"Indent XML"
+					],
+					[
+						"indent xml",
+						"Indent XML"
 					],
 					[
 						"install",
 						"Package Control: Install Package"
 					],
 					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inde",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"beauti",
+						"HTMLBeautify"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
 						"setting",
 						"Preferences: Settings"
 					],
 					[
-						"format",
-						"LSP: Format File"
+						"jdtls",
+						"LSP-jdtls: Refresh Workspace"
+					],
+					[
+						"lsp",
+						"LSP: Restart Server"
+					],
+					[
+						"django",
+						"Set Syntax: Django HTML"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
 					],
 					[
 						"map",
@@ -378,14 +613,6 @@
 					[
 						"git push",
 						"Git: Push Current Branch"
-					],
-					[
-						"git commit",
-						"Git: Commit"
-					],
-					[
-						"git add",
-						"Git: Add All"
 					],
 					[
 						"wrap",
@@ -444,10 +671,6 @@
 						"Preferences: Settings"
 					],
 					[
-						"ui",
-						"UI: Select Theme"
-					],
-					[
 						"disable",
 						"Package Control: Disable Package"
 					],
@@ -484,6 +707,40 @@
 			},
 			"file_history":
 			[
+				"/home/hanshi/Programming/JS/judi-parabola/index.html",
+				"/home/hanshi/Programming/JS/judi-parabola/main.js",
+				"/home/hanshi/main.py",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/utils/PostgreSQLJDBC.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/ContactController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/Contact.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/ContactDAO.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/app.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/App.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build/resources/main/tes.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/bin/main/app.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build/tmp/compileJava/compileTransaction/stash-dir/ContactController.class.uniqueId1",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/tes.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build.gradle",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/BusinessContactController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/BusinessContact.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/BusinessContactDAO.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/edit.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/show.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/index.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/show.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/index.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/edit.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/IndexController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/PersonalContact.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/app.fmxl",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/styles.css",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/apps/forum/templates/forum/thread-list.html",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Dosen.java",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Mahasiswa.java",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Civitas.java",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/App.java",
 				"/home/hanshi/Programming/Python/django-projects/dikasi/manage.py",
 				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_users.py",
 				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_threads.py",
@@ -510,7 +767,7 @@
 			],
 			"find":
 			{
-				"height": 39.0
+				"height": 44.0
 			},
 			"find_in_files":
 			{
@@ -524,6 +781,28 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"handle",
+					"col",
+					"contactsTab",
+					"primaryStage",
+					"result",
+					"PersonalContact",
+					"PersonalContactDAO",
+					"PersonalContact",
+					"PersonalContactController",
+					"personalContact",
+					"PersonalContact",
+					"company_name",
+					"PersonalContact",
+					"personalContact",
+					"PersonalContact",
+					"personalContact",
+					"PersonalContact",
+					"setid",
+					"getid",
+					"getId",
+					"private",
+					"Date"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -542,7 +821,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 39.0
+				"height": 44.0
 			},
 			"input":
 			{
@@ -572,7 +851,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 74.0
+				"height": 84.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -581,6 +860,110 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"inde",
+						"index.html"
+					],
+					[
+						"index",
+						"index.html"
+					],
+					[
+						"main",
+						"main.js"
+					],
+					[
+						"contact",
+						"app/src/main/java/simple/contact/manager/example/models/Contact.java"
+					],
+					[
+						"contactdao",
+						"app/src/main/java/simple/contact/manager/example/dao/ContactDAO.java"
+					],
+					[
+						"app",
+						"app/src/main/resources/app.fxml"
+					],
+					[
+						"tes",
+						"app/build/resources/main/tes.fxml"
+					],
+					[
+						"app.fxml",
+						"app/bin/main/app.fxml"
+					],
+					[
+						"app.java",
+						"app/src/main/java/simple/contact/manager/example/App.java"
+					],
+					[
+						"controller",
+						"app/src/main/java/simple/contact/manager/example/controllers/ContactController.java"
+					],
+					[
+						"personalcontactcon",
+						"app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java"
+					],
+					[
+						"business",
+						"app/src/main/java/simple/contact/manager/example/controllers/BusinessContactController.java"
+					],
+					[
+						"businesc",
+						"app/src/main/java/simple/contact/manager/example/models/BusinessContact.java"
+					],
+					[
+						"personalcontact",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"contactco",
+						"app/src/main/java/simple/contact/manager/example/controllers/ContactController.java"
+					],
+					[
+						"contactcon",
+						"app/src/main/java/simple/contact/manager/example/controllers/ContactController.java"
+					],
+					[
+						"App.java",
+						"app/src/main/java/simple/contact/manager/example/App.java"
+					],
+					[
+						"personalcontactco",
+						"app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java"
+					],
+					[
+						"personalcontactcontroller",
+						"app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java"
+					],
+					[
+						"personalcontactdao",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"personal",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"jdbc",
+						"app/src/main/java/simple/contact/manager/example/utils/PostgreSQLJDBC.java"
+					],
+					[
+						"contat",
+						"app/src/main/java/simple/contact/manager/example/models/Contact.java"
+					],
+					[
+						"",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"dao",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"thread-list",
+						"apps/forum/templates/forum/thread-list.html"
+					],
 					[
 						"geen",
 						"scripts/generate_users.py"
@@ -592,10 +975,6 @@
 					[
 						"setting",
 						"core/settings.py"
-					],
-					[
-						"main",
-						"app/src/main/java/tugas/pbo/App.java"
 					],
 					[
 						"busin",
@@ -624,14 +1003,6 @@
 					[
 						"h",
 						"app/src/main/java/tugas/pbo/utils/Hint.java"
-					],
-					[
-						"personal",
-						"app/src/main/java/tugas/pbo/models/PersonalContact.java"
-					],
-					[
-						"contact",
-						"app/src/main/java/tugas/pbo/models/BusinessContact.java"
 					]
 				],
 				"width": 0.0
@@ -658,7 +1029,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 379.0,
+			"side_bar_width": 229.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -674,12 +1045,156 @@
 				"selected_items":
 				[
 					[
-						"Pers",
-						"PersonalContact"
+						"ArrayL",
+						"ArrayList<>()"
+					],
+					[
+						"setcell",
+						"setCellValueFactory(${1:value});"
+					],
+					[
+						"set",
+						"set(${1:newValue});"
+					],
+					[
+						"re",
+						"resources/"
+					],
+					[
+						"FXML",
+						"FXMLLoader"
+					],
+					[
+						"IOE",
+						"IOException"
 					],
 					[
 						"get",
 						"getName()"
+					],
+					[
+						"contacts",
+						"contactsTable"
+					],
+					[
+						"business",
+						"businessContacts"
+					],
+					[
+						"BusinessC",
+						"BusinessContactController"
+					],
+					[
+						"Busine",
+						"BusinessContact(${1:name}, ${2:phoneNumber}, ${3:email}, ${4:companyName}, ${5:jobTitle})"
+					],
+					[
+						"PersonalC",
+						"PersonalContactController"
+					],
+					[
+						"Date",
+						"Date(${1:year}, ${2:month}, ${3:date})"
+					],
+					[
+						"Perso",
+						"PersonalContact(${1:name}, ${2:phoneNumber}, ${3:email}, ${4:birthday})"
+					],
+					[
+						"Business",
+						"BusinessContactDAO"
+					],
+					[
+						"Contac",
+						"Contact(${1:name}, ${2:phoneNumber}, ${3:email})"
+					],
+					[
+						"cl",
+						"class"
+					],
+					[
+						"clas",
+						"class"
+					],
+					[
+						"con",
+						"simple.contact.manager.example.controllers"
+					],
+					[
+						"contact",
+						"simple.contact.manager.example.models.${0:*};"
+					],
+					[
+						"list",
+						"ListView;"
+					],
+					[
+						"personal",
+						"PersonalContactController"
+					],
+					[
+						"Personal",
+						"PersonalContactController"
+					],
+					[
+						"PersonalConta",
+						"PersonalContactDAO"
+					],
+					[
+						"PersonalCOn",
+						"PersonalContactDAO"
+					],
+					[
+						"person",
+						"PersonalContactDAO"
+					],
+					[
+						"Per",
+						"PersonalContact(${1:name}, ${2:phoneNumber}, ${3:email}, ${4:birthday})"
+					],
+					[
+						"Peros",
+						"PersonalContactDAO(${1:connection})"
+					],
+					[
+						"PersonalContact",
+						"PersonalContactDAO"
+					],
+					[
+						"PersonalCon",
+						"PersonalContactDAO"
+					],
+					[
+						"m",
+						"simple.contact.manager.example.utils.${0:*};"
+					],
+					[
+						"Calend",
+						"Calendar() {\n\t${0}\n}"
+					],
+					[
+						"simpel",
+						"simple.contact.manager.example.models.${0:*};"
+					],
+					[
+						"Drive",
+						"DriverManager;"
+					],
+					[
+						"super",
+						"super(${1:name}, ${2:phoneNumber}, ${3:email})"
+					],
+					[
+						"co",
+						"simple.contact.manager.example.models"
+					],
+					[
+						"mhs",
+						"mhs3"
+					],
+					[
+						"Pers",
+						"PersonalContact"
 					],
 					[
 						"save",
@@ -955,24 +1470,76 @@
 				"selected_items":
 				[
 					[
-						"theme",
-						"gruvbox: Select Theme"
+						"push",
+						"Git: Push Current Branch"
 					],
 					[
-						"lsp",
-						"LSP: Enable Language Server in Project"
+						"git commit",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add All"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"format",
+						"LSP: Format File"
+					],
+					[
+						"indext",
+						"Indent XML"
+					],
+					[
+						"indent xml",
+						"Indent XML"
 					],
 					[
 						"install",
 						"Package Control: Install Package"
 					],
 					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inde",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"beauti",
+						"HTMLBeautify"
+					],
+					[
+						"xml",
+						"Set Syntax: XML"
+					],
+					[
 						"setting",
 						"Preferences: Settings"
 					],
 					[
-						"format",
-						"LSP: Format File"
+						"jdtls",
+						"LSP-jdtls: Refresh Workspace"
+					],
+					[
+						"lsp",
+						"LSP: Restart Server"
+					],
+					[
+						"django",
+						"Set Syntax: Django HTML"
+					],
+					[
+						"ui",
+						"UI: Select Theme"
 					],
 					[
 						"map",
@@ -985,14 +1552,6 @@
 					[
 						"git push",
 						"Git: Push Current Branch"
-					],
-					[
-						"git commit",
-						"Git: Commit"
-					],
-					[
-						"git add",
-						"Git: Add All"
 					],
 					[
 						"wrap",
@@ -1051,10 +1610,6 @@
 						"Preferences: Settings"
 					],
 					[
-						"ui",
-						"UI: Select Theme"
-					],
-					[
 						"disable",
 						"Package Control: Disable Package"
 					],
@@ -1091,6 +1646,40 @@
 			},
 			"file_history":
 			[
+				"/home/hanshi/Programming/JS/judi-parabola/index.html",
+				"/home/hanshi/Programming/JS/judi-parabola/main.js",
+				"/home/hanshi/main.py",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/utils/PostgreSQLJDBC.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/ContactController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/Contact.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/ContactDAO.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/app.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/App.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build/resources/main/tes.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/bin/main/app.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build/tmp/compileJava/compileTransaction/stash-dir/ContactController.class.uniqueId1",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/tes.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/build.gradle",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/BusinessContactController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/BusinessContact.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/BusinessContactDAO.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/edit.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/show.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/personalcontacts/index.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/show.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/index.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/edit.fxml",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/IndexController.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/PersonalContact.java",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/app.fmxl",
+				"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/styles.css",
+				"/home/hanshi/Programming/Python/django-projects/dikasi/apps/forum/templates/forum/thread-list.html",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Dosen.java",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Mahasiswa.java",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/models/Civitas.java",
+				"/home/hanshi/Programming/Java/praktikum/prak5/app/src/main/java/pbo/prak5/App.java",
 				"/home/hanshi/Programming/Python/django-projects/dikasi/manage.py",
 				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_users.py",
 				"/home/hanshi/Programming/Python/django-projects/dikasi/scripts/generate_threads.py",
@@ -1117,7 +1706,7 @@
 			],
 			"find":
 			{
-				"height": 39.0
+				"height": 44.0
 			},
 			"find_in_files":
 			{
@@ -1131,6 +1720,28 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"handle",
+					"col",
+					"contactsTab",
+					"primaryStage",
+					"result",
+					"PersonalContact",
+					"PersonalContactDAO",
+					"PersonalContact",
+					"PersonalContactController",
+					"personalContact",
+					"PersonalContact",
+					"company_name",
+					"PersonalContact",
+					"personalContact",
+					"PersonalContact",
+					"personalContact",
+					"PersonalContact",
+					"setid",
+					"getid",
+					"getId",
+					"private",
+					"Date"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1149,7 +1760,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 39.0
+				"height": 44.0
 			},
 			"input":
 			{
@@ -1177,10 +1788,10 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,1920,1040,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,1920,1040,1920,1080,2",
 			"replace":
 			{
-				"height": 74.0
+				"height": 84.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1189,6 +1800,110 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"inde",
+						"index.html"
+					],
+					[
+						"index",
+						"index.html"
+					],
+					[
+						"main",
+						"main.js"
+					],
+					[
+						"contact",
+						"app/src/main/java/simple/contact/manager/example/models/Contact.java"
+					],
+					[
+						"contactdao",
+						"app/src/main/java/simple/contact/manager/example/dao/ContactDAO.java"
+					],
+					[
+						"app",
+						"app/src/main/resources/app.fxml"
+					],
+					[
+						"tes",
+						"app/build/resources/main/tes.fxml"
+					],
+					[
+						"app.fxml",
+						"app/bin/main/app.fxml"
+					],
+					[
+						"app.java",
+						"app/src/main/java/simple/contact/manager/example/App.java"
+					],
+					[
+						"controller",
+						"app/src/main/java/simple/contact/manager/example/controllers/ContactController.java"
+					],
+					[
+						"personalcontactcon",
+						"app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java"
+					],
+					[
+						"business",
+						"app/src/main/java/simple/contact/manager/example/controllers/BusinessContactController.java"
+					],
+					[
+						"businesc",
+						"app/src/main/java/simple/contact/manager/example/models/BusinessContact.java"
+					],
+					[
+						"personalcontact",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"contactco",
+						"app/src/main/java/simple/contact/manager/example/controllers/ContactController.java"
+					],
+					[
+						"contactcon",
+						"app/src/main/java/simple/contact/manager/example/controllers/ContactController.java"
+					],
+					[
+						"App.java",
+						"app/src/main/java/simple/contact/manager/example/App.java"
+					],
+					[
+						"personalcontactco",
+						"app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java"
+					],
+					[
+						"personalcontactcontroller",
+						"app/src/main/java/simple/contact/manager/example/controllers/PersonalContactController.java"
+					],
+					[
+						"personalcontactdao",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"personal",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"jdbc",
+						"app/src/main/java/simple/contact/manager/example/utils/PostgreSQLJDBC.java"
+					],
+					[
+						"contat",
+						"app/src/main/java/simple/contact/manager/example/models/Contact.java"
+					],
+					[
+						"",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"dao",
+						"app/src/main/java/simple/contact/manager/example/dao/PersonalContactDAO.java"
+					],
+					[
+						"thread-list",
+						"apps/forum/templates/forum/thread-list.html"
+					],
 					[
 						"geen",
 						"scripts/generate_users.py"
@@ -1200,10 +1915,6 @@
 					[
 						"setting",
 						"core/settings.py"
-					],
-					[
-						"main",
-						"app/src/main/java/tugas/pbo/App.java"
 					],
 					[
 						"busin",
@@ -1232,14 +1943,6 @@
 					[
 						"h",
 						"app/src/main/java/tugas/pbo/utils/Hint.java"
-					],
-					[
-						"personal",
-						"app/src/main/java/tugas/pbo/models/PersonalContact.java"
-					],
-					[
-						"contact",
-						"app/src/main/java/tugas/pbo/models/BusinessContact.java"
 					]
 				],
 				"width": 0.0
@@ -1269,7 +1972,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 379.0,
+			"side_bar_width": 229.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
