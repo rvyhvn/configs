@@ -72,7 +72,7 @@ export PATH=/opt/ghidra_11.0.1_PUBLIC:$PATH
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting command-not-found ruby python web-search zsh-autosuggestions)
+plugins=(git command-not-found ruby python web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,9 +115,12 @@ alias pls="sudo"
 alias tm="tmux"
 alias cls="clear"
 alias cd="z"
+alias nvim="nvim -u ~/.config/nvim/init.lua"
+alias vim="nvim -u ~/.vimrc"
 
-export VIMINIT='source $MYVIMRC'
-export MYVIMRC='~/.config/nvim/init.lua'  #or any other location you want
+# export VIMINIT='source $MYVIMRC'
+# export MYVIMRC='~/.config/nvim/init.lua'  #or any other location you want
+# export MYVIMRC='~/.vimrc'
 
 setopt autocd
 # setopt correct
@@ -293,6 +296,8 @@ fi
 
 
 [ -f "/home/hanshi/.ghcup/env" ] && source "/home/hanshi/.ghcup/env" # ghcup-env
+
+export EDITOR="vim"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"

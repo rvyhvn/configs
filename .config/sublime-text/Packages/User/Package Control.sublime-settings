@@ -2,6 +2,14 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Discord Rich Presence",
+		"Emmet",
+		"LSP",
+		"LSP-eslint",
+		"LSP-json",
+		"LSP-pyright",
+		"LSP-typescript",
+		"LSP-volar",
 	],
 	"installed_packages":
 	[

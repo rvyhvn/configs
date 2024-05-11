@@ -1,6 +1,6 @@
 {
 	"font_face": "IosevkaTerm Nerd Font Mono",
-	"color_scheme": "gruvbox (Dark) (Soft) NDC.sublime-color-scheme",
+	"color_scheme": "gruvbox (Light) (Hard) NDC.sublime-color-scheme",
 	"font_size": 15,
 	"caret_style": "blink",
 	"caret_extra_top": 0,
@@ -15,8 +15,15 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Discord Rich Presence",
+		"Emmet",
 		"Icon Fonts",
-		"Vintage",
+		"LSP",
+		"LSP-eslint",
+		"LSP-json",
+		"LSP-pyright",
+		"LSP-typescript",
+		"LSP-volar",
 	],
 	"theme": "gruvbox.sublime-theme",
 	"indent_guide_options":

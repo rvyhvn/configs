@@ -1,4 +1,29 @@
 {
+	"languageserver": {
+		"ruby-lsp": {
+			"command": "ruby-lsp",
+			"initializationOptions": {
+				"experimentalFeaturesEnabled": false,
+				"enabledFeatures": [
+					"codeActions",
+					"diagnostics",
+					"documentHighlights",
+					"documentLink",
+					"documentSymbols",
+					"foldingRanges",
+					"formatting",
+					"hover",
+					"inlayHint",
+					"onTypeFormatting",
+					"selectionRanges",
+					"semanticHighlighting",
+					"completion"
+				],
+				"formatter": "auto"
+			},
+			"filetypes": ["ruby"]
+		}
+	},
 	"suggest.autoTrigger": "always",
 	"suggest.enablePreview": true,
 	"suggest.enablePreselect": true,
@@ -27,6 +52,7 @@
 	"emmet.includeLanguages": { "htmldjango": "html" },
 	"python.formatting.provider": "black",
 	"python.formatting.blackPath": "black",
+	"python.linting.enabled": true,
 	"pyright.completion.importSupport": true,
 	"pyright.completion.snippetSupport": true,
 	"htmldjango.enable": true,
@@ -35,5 +61,12 @@
 	"volar.autoClosingTags": true,
 	"coc.preferences.formatOnSave": true,
 	"solargraph.autoformat": true,
-	"solargraph.formatting": true
+	"solargraph.formatting": true,
+	"solargraph.symbols": true,
+	"html-css-support.styleSheets": [
+		"https://cdn.tailwindcss.com",
+		"style.css",
+		"/style.css"
+	],
+	"html-css-support.enabledLanguages": ["html", "vue"]
 }

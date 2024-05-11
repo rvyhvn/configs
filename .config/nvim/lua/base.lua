@@ -42,6 +42,8 @@ opt.swapfile = true
 opt.backup = true
 opt.undofile = true
 opt.autoread = true
+-- opt.listchars:append("trail:·")
+-- opt.list = true
 
 -- Append backup files with timestamp
 vim.api.nvim_create_autocmd("BufWritePre", {
@@ -51,7 +53,6 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     vim.o.backupext = extension
   end,
 })
-
 
 -- Buffer-specific options
 local bo = vim.bo
@@ -63,9 +64,33 @@ opt.termguicolors = true
 vim.o.guicursor =
 "n-v-c-i:block,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
 
+-- Require configurations
+local require_configs = {
+  "personal.keymaps",
+  "plugin-configs.coc",
+  "plugin-configs.nvim-tree",
+  "plugin-configs.treesitter",
+  "plugin-configs.telescope",
+  "plugin-configs.indent-blankline",
+  "plugin-configs.lualine",
+  "plugin-configs.dresser",
+  "plugin-configs.tmux",
+  "plugin-configs.comment",
+  "plugin-configs.resession",
+  -- "plugin-configs.mini-animate",
+  "plugin-configs.barbar",
+  "plugin-configs.gruvbox"
+}
+
 -- Set up autocmds
 vim.cmd('autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE')
 vim.cmd("colorscheme gruvbox")
+-- vim.cmd('highlight ExtraWhitespace ctermfg=166 guifg=#d65d0e')
+-- vim.cmd("match ExtraWhitespace /\\s\\+$/")
+-- vim.cmd("autocmd BufWinEnter * match ExtraWhitespace /\\s\\+$/")
+-- vim.cmd("autocmd InsertEnter * match ExtraWhitespace /\\s\\+\\%#\\@<!$/")
+-- vim.cmd("autocmd InsertLeave * match ExtraWhitespace /\\s\\+$/")
+
 vim.api.nvim_create_autocmd('TextYankPost', {
   pattern = "*",
   callback = function()
@@ -87,22 +112,20 @@ vim.api.nvim_create_autocmd("BufReadPost", {
   end
 })
 
--- Require configurations
-local require_configs = {
-  "personal.keymaps",
-  "plugin-configs.coc",
-  "plugin-configs.nvim-tree",
-  "plugin-configs.treesitter",
-  "plugin-configs.telescope",
-  "plugin-configs.indent-blankline",
-  "plugin-configs.lualine",
-  "plugin-configs.dresser",
-  "plugin-configs.tmux",
-  "plugin-configs.comment",
-  "plugin-configs.resession",
-  -- "plugin-configs.mini-animate",
-  "plugin-configs.barbar"
-}
+-- Create an autocmd to highlight trailing whitespace in normal mode
+--[[ vim.api.nvim_create_autocmd({ "BufWinEnter", "FocusGained" }, {
+  pattern = { "*" },
+  callback = function()
+    vim.cmd("match ExtraWhitespace /\\v\\s+$/")
+  end,
+})
+
+-- Create an autocmd to clear the highlight in insert mode
+vim.api.nvim_create_autocmd({ "InsertEnter" }, {
+  callback = function()
+    vim.cmd("match ExtraWhitespace //")
+  end,
+}) ]]
 
 for _, config in ipairs(require_configs) do
   require(config)

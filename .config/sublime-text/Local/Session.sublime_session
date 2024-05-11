@@ -1,8 +1,36 @@
 {
 	"file_history":
 	[
+		"/home/hanshi/Programming/JS/judi-parabola/src/App.vue",
+		"/home/hanshi/Programming/JS/judi-parabola/src/components/SlotMachine/SlotReel.vue",
+		"/home/hanshi/Programming/JS/judi-parabola/src/router/index.ts",
+		"/home/hanshi/Programming/JS/judi-parabola/src/views/SlotMachineView.vue",
+		"/home/hanshi/configs/.config/sublime-text/Packages/LSP-vue/LSP-vue.sublime-settings",
+		"/home/hanshi/configs/.config/sublime-text/Packages/User/LSP-vue.sublime-settings",
+		"/home/hanshi/Public/slot/src/symbol-data.ts",
+		"/home/hanshi/Public/slot/index.html",
+		"/home/hanshi/Programming/JS/judi-parabola/src/components/SlotMachine.vue",
+		"/home/hanshi/Public/slotmachine-vue/src/App.vue",
+		"/home/hanshi/Programming/JS/judi-parabola/src/views/HomeView.vue",
+		"/home/hanshi/Programming/JS/judi-parabola/src/style.css",
+		"/home/hanshi/Programming/JS/judi-parabola/tailwind.config.js",
+		"/home/hanshi/Programming/JS/judi-parabola/src/components/Card.vue",
+		"/home/hanshi/Programming/JS/judi-parabola/.eslintrc.cjs",
+		"/home/hanshi/Programming/JS/judi-parabola/package.json",
+		"/home/hanshi/Programming/JS/judi-parabola/src/assets/main.css",
+		"/home/hanshi/Programming/JS/judi-parabola/src/assets/base.css",
+		"/home/hanshi/Programming/JS/judi-parabola/src/main.ts",
+		"/home/hanshi/Programming/JS/judi-parabola/tsconfig.json",
+		"/home/hanshi/Programming/JS/judi-parabola/tsconfig.app.json",
+		"/home/hanshi/configs/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/hanshi/configs/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/hanshi/Programming/JS/judi-parabola/src/components/icons/IconSupport.vue",
+		"/home/hanshi/Programming/JS/judi-parabola/src/App.vue.ts",
+		"/home/hanshi/Programming/JS/judi-parabola/style.css",
 		"/home/hanshi/Programming/JS/judi-parabola/index.html",
 		"/home/hanshi/Programming/JS/judi-parabola/main.js",
+		"/home/hanshi/configs/.config/sublime-text/Packages/Color Highlight/Color Highlight.sublime-settings",
+		"/home/hanshi/configs/.config/sublime-text/Packages/User/Color Highlight.sublime-settings",
 		"/home/hanshi/main.py",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/utils/PostgreSQLJDBC.java",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/ContactController.java",
@@ -27,8 +55,6 @@
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/index.fxml",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/businesscontact/edit.fxml",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/controllers/IndexController.java",
-		"/home/hanshi/configs/.config/sublime-text/Packages/User/Preferences.sublime-settings",
-		"/home/hanshi/configs/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/java/simple/contact/manager/example/models/PersonalContact.java",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/app.fmxl",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example/app/src/main/resources/styles.css",
@@ -73,6 +99,8 @@
 	"folder_history":
 	[
 		"/home/hanshi/Programming/JS/judi-parabola",
+		"/home/hanshi/Public/slot",
+		"/home/hanshi/Public/slotmachine-vue",
 		"/home/hanshi/Programming/Java/record/simple-contact-manager-example",
 		"/home/hanshi/Programming/Python/django-projects/dikasi",
 		"/home/hanshi/Programming/Java/praktikum/prak5",
@@ -87,9 +115,9 @@
 		"/home/hanshi/Programming/PHP/xss"
 	],
 	"last_version": 4169,
-	"last_window_id": 23,
+	"last_window_id": 29,
 	"log_indexing": false,
-	"next_update_check": 1712767128,
+	"next_update_check": 1713631128,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -106,6 +134,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"RouterLink",
+						"import { RouterLink$1 } from 'vue-router';"
+					],
+					[
+						"Router",
+						"import { Router$1 } from 'vue-router';"
+					],
+					[
+						"id",
+						"id"
+					],
 					[
 						"ArrayL",
 						"ArrayList<>()"
@@ -531,6 +571,50 @@
 				"selected_items":
 				[
 					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"vue",
+						"Preferences: LSP-vue Settings"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"format",
+						"LSP: Format File"
+					],
+					[
+						"disocrd",
+						"Discord Rich Presence: Reconnect to Discord"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"lsp go ",
+						"LSP: Goto Implementation"
+					],
+					[
+						"beau",
+						"HTMLBeautify"
+					],
+					[
+						"preferences",
+						"Preferences: Color Highlight Settings"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
 						"push",
 						"Git: Push Current Branch"
 					],
@@ -543,14 +627,6 @@
 						"Git: Add All"
 					],
 					[
-						"theme",
-						"UI: Select Color Scheme"
-					],
-					[
-						"format",
-						"LSP: Format File"
-					],
-					[
 						"indext",
 						"Indent XML"
 					],
@@ -559,16 +635,8 @@
 						"Indent XML"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"indent",
 						"Indentation: Reindent Lines"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					],
 					[
 						"inde",
@@ -581,10 +649,6 @@
 					[
 						"xml",
 						"Set Syntax: XML"
-					],
-					[
-						"setting",
-						"Preferences: Settings"
 					],
 					[
 						"jdtls",
@@ -667,10 +731,6 @@
 						"Git: Commit"
 					],
 					[
-						"prefe",
-						"Preferences: Settings"
-					],
-					[
 						"disable",
 						"Package Control: Disable Package"
 					],
@@ -707,6 +767,27 @@
 			},
 			"file_history":
 			[
+				"/home/hanshi/Programming/JS/judi-parabola/src/App.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/SlotMachine/SlotReel.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/router/index.ts",
+				"/home/hanshi/Programming/JS/judi-parabola/src/views/SlotMachineView.vue",
+				"/home/hanshi/Public/slot/src/symbol-data.ts",
+				"/home/hanshi/Public/slot/index.html",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/SlotMachine.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/views/HomeView.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/style.css",
+				"/home/hanshi/Programming/JS/judi-parabola/tailwind.config.js",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/Card.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/.eslintrc.cjs",
+				"/home/hanshi/Programming/JS/judi-parabola/package.json",
+				"/home/hanshi/Programming/JS/judi-parabola/src/assets/main.css",
+				"/home/hanshi/Programming/JS/judi-parabola/src/assets/base.css",
+				"/home/hanshi/Programming/JS/judi-parabola/src/main.ts",
+				"/home/hanshi/Programming/JS/judi-parabola/tsconfig.json",
+				"/home/hanshi/Programming/JS/judi-parabola/tsconfig.app.json",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/icons/IconSupport.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/App.vue.ts",
+				"/home/hanshi/Programming/JS/judi-parabola/style.css",
 				"/home/hanshi/Programming/JS/judi-parabola/index.html",
 				"/home/hanshi/Programming/JS/judi-parabola/main.js",
 				"/home/hanshi/main.py",
@@ -781,6 +862,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"eslint",
+					"rules",
 					"handle",
 					"col",
 					"contactsTab",
@@ -825,7 +908,7 @@
 			},
 			"input":
 			{
-				"height": 72.0
+				"height": 75.0
 			},
 			"menu_visible": true,
 			"output.LSP Log Panel":
@@ -861,16 +944,76 @@
 				"selected_items":
 				[
 					[
-						"inde",
-						"index.html"
+						"app.",
+						"src/App.vue"
+					],
+					[
+						"slotmac",
+						"src/views/SlotMachineView.vue"
+					],
+					[
+						"router",
+						"src/router/index.ts"
+					],
+					[
+						"app",
+						"src/App.vue"
+					],
+					[
+						"vue",
+						"src/components/SlotMachine.vue"
+					],
+					[
+						"slotmachine",
+						"src/components/SlotMachine.vue"
+					],
+					[
+						"slotmach",
+						"src/components/SlotMachine.vue"
+					],
+					[
+						"slot",
+						"src/views/SlotMachineView.vue"
+					],
+					[
+						"slotmachinevue",
+						"src/views/SlotMachineView.vue"
+					],
+					[
+						"index.ts",
+						"src/router/index.ts"
+					],
+					[
+						"tailwin",
+						"tailwind.config.js"
+					],
+					[
+						"tsconfig",
+						"tsconfig.app.json"
+					],
+					[
+						"tscon",
+						"tsconfig.json"
 					],
 					[
 						"index",
-						"index.html"
+						"src/router/index.ts"
+					],
+					[
+						"json",
+						"package.json"
+					],
+					[
+						"eslint",
+						".eslintrc.cjs"
 					],
 					[
 						"main",
 						"main.js"
+					],
+					[
+						"inde",
+						"index.html"
 					],
 					[
 						"contact",
@@ -879,10 +1022,6 @@
 					[
 						"contactdao",
 						"app/src/main/java/simple/contact/manager/example/dao/ContactDAO.java"
-					],
-					[
-						"app",
-						"app/src/main/resources/app.fxml"
 					],
 					[
 						"tes",
@@ -1029,7 +1168,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 229.0,
+			"side_bar_width": 336.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -1044,6 +1183,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"RouterLink",
+						"import { RouterLink$1 } from 'vue-router';"
+					],
+					[
+						"Router",
+						"import { Router$1 } from 'vue-router';"
+					],
+					[
+						"id",
+						"id"
+					],
 					[
 						"ArrayL",
 						"ArrayList<>()"
@@ -1470,6 +1621,50 @@
 				"selected_items":
 				[
 					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"vue",
+						"Preferences: LSP-vue Settings"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"format",
+						"LSP: Format File"
+					],
+					[
+						"disocrd",
+						"Discord Rich Presence: Reconnect to Discord"
+					],
+					[
+						"prefe",
+						"Preferences: Settings"
+					],
+					[
+						"lsp go ",
+						"LSP: Goto Implementation"
+					],
+					[
+						"beau",
+						"HTMLBeautify"
+					],
+					[
+						"preferences",
+						"Preferences: Color Highlight Settings"
+					],
+					[
+						"setting",
+						"Preferences: Settings"
+					],
+					[
 						"push",
 						"Git: Push Current Branch"
 					],
@@ -1482,14 +1677,6 @@
 						"Git: Add All"
 					],
 					[
-						"theme",
-						"UI: Select Color Scheme"
-					],
-					[
-						"format",
-						"LSP: Format File"
-					],
-					[
 						"indext",
 						"Indent XML"
 					],
@@ -1498,16 +1685,8 @@
 						"Indent XML"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"indent",
 						"Indentation: Reindent Lines"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					],
 					[
 						"inde",
@@ -1520,10 +1699,6 @@
 					[
 						"xml",
 						"Set Syntax: XML"
-					],
-					[
-						"setting",
-						"Preferences: Settings"
 					],
 					[
 						"jdtls",
@@ -1606,10 +1781,6 @@
 						"Git: Commit"
 					],
 					[
-						"prefe",
-						"Preferences: Settings"
-					],
-					[
 						"disable",
 						"Package Control: Disable Package"
 					],
@@ -1646,6 +1817,27 @@
 			},
 			"file_history":
 			[
+				"/home/hanshi/Programming/JS/judi-parabola/src/App.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/SlotMachine/SlotReel.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/router/index.ts",
+				"/home/hanshi/Programming/JS/judi-parabola/src/views/SlotMachineView.vue",
+				"/home/hanshi/Public/slot/src/symbol-data.ts",
+				"/home/hanshi/Public/slot/index.html",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/SlotMachine.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/views/HomeView.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/style.css",
+				"/home/hanshi/Programming/JS/judi-parabola/tailwind.config.js",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/Card.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/.eslintrc.cjs",
+				"/home/hanshi/Programming/JS/judi-parabola/package.json",
+				"/home/hanshi/Programming/JS/judi-parabola/src/assets/main.css",
+				"/home/hanshi/Programming/JS/judi-parabola/src/assets/base.css",
+				"/home/hanshi/Programming/JS/judi-parabola/src/main.ts",
+				"/home/hanshi/Programming/JS/judi-parabola/tsconfig.json",
+				"/home/hanshi/Programming/JS/judi-parabola/tsconfig.app.json",
+				"/home/hanshi/Programming/JS/judi-parabola/src/components/icons/IconSupport.vue",
+				"/home/hanshi/Programming/JS/judi-parabola/src/App.vue.ts",
+				"/home/hanshi/Programming/JS/judi-parabola/style.css",
 				"/home/hanshi/Programming/JS/judi-parabola/index.html",
 				"/home/hanshi/Programming/JS/judi-parabola/main.js",
 				"/home/hanshi/main.py",
@@ -1720,6 +1912,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"eslint",
+					"rules",
 					"handle",
 					"col",
 					"contactsTab",
@@ -1764,7 +1958,7 @@
 			},
 			"input":
 			{
-				"height": 72.0
+				"height": 75.0
 			},
 			"menu_visible": true,
 			"output.LSP Log Panel":
@@ -1801,16 +1995,76 @@
 				"selected_items":
 				[
 					[
-						"inde",
-						"index.html"
+						"app.",
+						"src/App.vue"
+					],
+					[
+						"slotmac",
+						"src/views/SlotMachineView.vue"
+					],
+					[
+						"router",
+						"src/router/index.ts"
+					],
+					[
+						"app",
+						"src/App.vue"
+					],
+					[
+						"vue",
+						"src/components/SlotMachine.vue"
+					],
+					[
+						"slotmachine",
+						"src/components/SlotMachine.vue"
+					],
+					[
+						"slotmach",
+						"src/components/SlotMachine.vue"
+					],
+					[
+						"slot",
+						"src/views/SlotMachineView.vue"
+					],
+					[
+						"slotmachinevue",
+						"src/views/SlotMachineView.vue"
+					],
+					[
+						"index.ts",
+						"src/router/index.ts"
+					],
+					[
+						"tailwin",
+						"tailwind.config.js"
+					],
+					[
+						"tsconfig",
+						"tsconfig.app.json"
+					],
+					[
+						"tscon",
+						"tsconfig.json"
 					],
 					[
 						"index",
-						"index.html"
+						"src/router/index.ts"
+					],
+					[
+						"json",
+						"package.json"
+					],
+					[
+						"eslint",
+						".eslintrc.cjs"
 					],
 					[
 						"main",
 						"main.js"
+					],
+					[
+						"inde",
+						"index.html"
 					],
 					[
 						"contact",
@@ -1819,10 +2073,6 @@
 					[
 						"contactdao",
 						"app/src/main/java/simple/contact/manager/example/dao/ContactDAO.java"
-					],
-					[
-						"app",
-						"app/src/main/resources/app.fxml"
 					],
 					[
 						"tes",
@@ -1972,7 +2222,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 229.0,
+			"side_bar_width": 336.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
