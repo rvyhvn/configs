@@ -6,6 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export PATH=/opt/nvim-linux64/bin:$PATH
 # export PATH=/opt/arduino-ide_2.2.1_Linux_64bit:$PATH
 export PATH=/opt/ghidra_11.0.1_PUBLIC:$PATH
+export PATH=/home/hanshi/.cargo/bin:$PATH
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -106,7 +107,7 @@ alias ls="lsd --all"
 alias cl="clear"
 alias x="exit"
 alias lv="/home/hanshi/.local/bin/lvim"
-alias neofetch="neofetch --ascii_distro debian_small"
+alias neofetch="neofetch --ascii_distro void_small"
 alias python="python3"
 alias claer="clear"
 alias clear="printf '\033[2J\033[3J\033[1;1H'"
@@ -117,6 +118,7 @@ alias cls="clear"
 alias cd="z"
 alias nvim="nvim -u ~/.config/nvim/init.lua"
 alias vim="nvim -u ~/.vimrc"
+alias code="codium"
 
 # export VIMINIT='source $MYVIMRC'
 # export MYVIMRC='~/.config/nvim/init.lua'  #or any other location you want
@@ -310,11 +312,14 @@ export M2_HOME=/opt/apache-maven-3.9.5
 export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 
-source "$HOME/.cargo/bin"
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval "$(zoxide init zsh)"
 eval $(thefuck --alias fk)
 # You can use whatever you want as an alias, like for Mondays:
 eval $(thefuck --alias FUCK)
-eval "$(navi widget zsh)"
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
+# eval "$(navi widget zsh)"
+source "$HOME/.cargo/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
