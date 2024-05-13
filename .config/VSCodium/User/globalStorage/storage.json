@@ -5,7 +5,8 @@
             "file:///home/hanshi/.config/awesome": "__default__profile__",
             "file:///home/hanshi/configs/.config/awesome": "__default__profile__",
             "file:///home/hanshi": "__default__profile__",
-            "file:///home/hanshi/Documents/college/smt4/grafika-komputer/judi-parabola": "__default__profile__"
+            "file:///home/hanshi/Documents/college/smt4/grafika-komputer/judi-parabola": "__default__profile__",
+            "file:///home/hanshi/configs/.config/VSCodium/User": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -16,10 +17,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/hanshi"
-            },
-            {
-                "folderUri": "file:///home/hanshi/Documents/college/smt4/grafika-komputer/judi-parabola"
+                "folderUri": "file:///home/hanshi/configs/.config/VSCodium/User"
             }
         ],
         "emptyWindows": []
@@ -72,45 +70,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/hanshi/Documents/college/smt4/grafika-komputer/judi-parabola",
-                                        "path": "/home/hanshi/Documents/college/smt4/grafika-komputer/judi-parabola",
+                                        "external": "file:///home/hanshi/configs/.config/VSCodium/User",
+                                        "path": "/home/hanshi/configs/.config/VSCodium/User",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/college/smt4/grafika-komputer/judi-parabola"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/hanshi",
-                                        "path": "/home/hanshi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/hanshi"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/hanshi/configs/.config/awesome",
-                                        "path": "/home/hanshi/configs/.config/awesome",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/configs/.config/awesome"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/hanshi/.config/awesome",
-                                        "path": "/home/hanshi/.config/awesome",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/awesome"
+                                    "label": "~/configs/.config/VSCodium/User"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -168,13 +133,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -676,13 +634,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -771,7 +722,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -779,7 +731,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1433,8 +1386,9 @@
                 "userSettingsLabel": "ctrl+shift+="
             },
             "workbench.action.zoomOut": {
-                "label": "Ctrl+Shift+-",
-                "userSettingsLabel": "ctrl+shift+-"
+                "label": "Ctrl+NumPad_Subtract",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+numpad_subtract"
             },
             "workbench.action.zoomReset": {
                 "label": "Ctrl+NumPad0",
@@ -1445,11 +1399,6 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1495,6 +1444,10 @@
             "workbench.action.navigateBack": {
                 "label": "Ctrl+Alt+-",
                 "userSettingsLabel": "ctrl+alt+-"
+            },
+            "workbench.action.navigateForward": {
+                "label": "Ctrl+Shift+-",
+                "userSettingsLabel": "ctrl+shift+-"
             },
             "workbench.action.navigateToLastEditLocation": {
                 "label": "Ctrl+K Ctrl+Q",
@@ -1667,40 +1620,40 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#1d2021",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 2,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#ebdbb2",
+            "background": "#1d2021",
+            "editorBackground": "#1d2021",
+            "titleBarBackground": "#1d2021",
+            "activityBarBackground": "#1d2021",
+            "sideBarBackground": "#1d2021",
+            "statusBarBackground": "#1d2021",
+            "statusBarNoFolderBackground": "#1d2021"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 194,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/hanshi/Documents/college/smt4/grafika-komputer/judi-parabola",
-            "backupPath": "/home/hanshi/.config/VSCodium/Backups/1e676057a2d4f41a919aba517d67e370",
+            "folder": "file:///home/hanshi/configs/.config/VSCodium/User",
+            "backupPath": "/home/hanshi/.config/VSCodium/Backups/6a52c63e335308c2dfde15fc640694ff",
             "uiState": {
                 "mode": 1,
-                "x": 2,
-                "y": 34,
-                "width": 1920,
-                "height": 1048
+                "x": 966,
+                "y": 42,
+                "width": 944,
+                "height": 508
             }
         },
         "openedWindows": []

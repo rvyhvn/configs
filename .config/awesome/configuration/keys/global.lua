@@ -303,12 +303,29 @@ local globalKeys =
         end,
         { description = '-10%', group = 'hotkeys' }
       ),
-      -- ALSA volume control
+      -- ALSA volume control (Commented since I use pavucontrol)
+      -- awful.key(
+      --   {},
+      --   'XF86AudioRaiseVolume',
+      --   function()
+      --     awful.spawn('amixer -D pulse sset Master 5%+')
+      --   end,
+      --   { description = 'volume up', group = 'hotkeys' }
+      -- ),
+      -- awful.key(
+      --   {},
+      --   'XF86AudioLowerVolume',
+      --   function()
+      --     awful.spawn('amixer -D pulse sset Master 5%-')
+      --   end,
+      --   { description = 'volume down', group = 'hotkeys' }
+      -- ),
+      -- Pulse Audio volume control
       awful.key(
         {},
         'XF86AudioRaiseVolume',
         function()
-          awful.spawn('amixer -D pulse sset Master 5%+')
+          awful.spawn('pamixer -i 5')
         end,
         { description = 'volume up', group = 'hotkeys' }
       ),
@@ -316,7 +333,7 @@ local globalKeys =
         {},
         'XF86AudioLowerVolume',
         function()
-          awful.spawn('amixer -D pulse sset Master 5%-')
+          awful.spawn('pamixer -d 5')
         end,
         { description = 'volume down', group = 'hotkeys' }
       ),

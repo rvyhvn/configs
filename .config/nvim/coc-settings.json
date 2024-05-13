@@ -68,5 +68,9 @@
 		"style.css",
 		"/style.css"
 	],
-	"html-css-support.enabledLanguages": ["html", "vue"]
+  "html-css-support.enabledLanguages": [
+    "html",
+    "vue"
+  ],
+  "snippets.ultisnips.pythonPrompt": false
 }
