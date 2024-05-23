@@ -2,7 +2,9 @@ pcall(require, "luarocks.loader")
 local gears = require("gears")
 local awful = require("awful")
 local beautiful = require("beautiful")
-local clientkeys, clientbuttons = require("config.keys")
+local keys = require("config.keys")
+local clientkeys = keys.clientkeys
+local clientbuttons = keys.clientbuttons
 beautiful.init(gears.filesystem.get_configuration_dir() .. "mytheme.lua")
 
 local rules = {
@@ -66,6 +68,11 @@ local rules = {
   {
     rule = { class = "Firefox" },
     properties = { screen = 1, tag = "1" }
+  },
+
+  {
+    rule = { class = "Code - OSS" },
+    properties = { screen = 1, tag = "2" }
   },
 
 }

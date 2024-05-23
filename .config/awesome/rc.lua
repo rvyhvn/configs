@@ -14,8 +14,10 @@ local beautiful = require("beautiful")
 local naughty = require("naughty")
 local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup")
-local globalkeys = require("config.keys")
+local keys = require("config.keys")
+local globalkeys = keys.globalkeys
 local rules = require("config.rules")
+local layout = require("config.layout")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
@@ -56,10 +58,9 @@ end
 beautiful.init(gears.filesystem.get_configuration_dir() .. "mytheme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "kitty"
-file_manager = "kitty ranger"
-editor = os.getenv("EDITOR") or "nvim"
-editor_cmd = terminal .. " -e " .. editor
+local terminal = "kitty"
+local editor = os.getenv("EDITOR") or "nvim"
+local editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
@@ -67,29 +68,10 @@ editor_cmd = terminal .. " -e " .. editor
 -- I suggest you to remap Mod4 to another key using xmodmap or other tools.
 -- However, you can use another modifier like Mod1, but it may interact with others.
 -- From the xmodmap, shift is "Shift", caps lock is "Lock", control is "Control".
-altkey = "Mod1"
-modkey = "Mod4"
+local modkey = "Mod4"
 
 -- Table of layouts to cover with awful.layout.inc, order matters.
-awful.layout.layouts = {
-  awful.layout.suit.tile,
-  awful.layout.suit.spiral,
-  awful.layout.suit.floating,
-  -- awful.layout.suit.tile.left,
-  -- awful.layout.suit.tile.bottom,
-  -- awful.layout.suit.tile.top,
-  -- awful.layout.suit.fair,
-  -- awful.layout.suit.fair.horizontal,
-  -- awful.layout.suit.spiral.dwindle,
-  -- awful.layout.suit.max,
-  -- awful.layout.suit.max.fullscreen,
-  -- awful.layout.suit.magnifier,
-  -- awful.layout.suit.corner.nw,
-  -- awful.layout.suit.corner.ne,
-  -- awful.layout.suit.corner.sw,
-  -- awful.layout.suit.corner.se,
-}
--- }}}
+awful.layout.layouts = layout
 
 -- {{{ Menu
 -- Create a launcher widget and a main menu
@@ -244,6 +226,7 @@ root.buttons(gears.table.join(
 -- Set keys
 root.keys(globalkeys)
 -- }}}
+
 
 -- {{{ Rules
 -- Rules to apply to new clients (through the "manage" signal).

@@ -3,23 +3,15 @@ pcall(require, "luarocks.loader")
 local gears = require("gears")
 local awful = require("awful")
 require("awful.autofocus")
--- Widget and layout library
-local wibox = require("wibox")
--- Theme handling library
-local beautiful = require("beautiful")
--- Notification library
-local naughty = require("naughty")
 local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 -- require("awful.hotkeys_popup.keys")
-terminal = "kitty"
-file_manager = "kitty ranger"
-editor = os.getenv("EDITOR") or "nvim"
-editor_cmd = terminal .. " -e " .. editor
-altkey = "Mod1"
-modkey = "Mod4"
+local terminal = "kitty"
+local file_manager = "kitty ranger"
+local altkey = "Mod1"
+local modkey = "Mod4"
 
 -- {{{ Key bindings
 local globalkeys = gears.table.join(
@@ -259,4 +251,8 @@ local clientbuttons = gears.table.join(
 )
 
 
-return globalkeys, clientkeys, clientbuttons
+return {
+  globalkeys = globalkeys,
+  clientkeys = clientkeys,
+  clientbuttons = clientbuttons,
+}
