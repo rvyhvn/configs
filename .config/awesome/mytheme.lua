@@ -39,7 +39,7 @@ theme.border_focus                              = "#fabd2f"
 theme.border_marked                             = "#242424"
 
 theme.taglist_bg_focus                          = "#b16286"
-theme.taglist_bg_urgent                         = theme.fg_urgent
+theme.taglist_bg_urgent                         = theme.bg_urgent
 theme.taglist_bg_occupied                       = "#665c54"
 theme.taglist_bg_empty                          = theme.bg_normal
 -- theme.taglist_bg_volatile =
