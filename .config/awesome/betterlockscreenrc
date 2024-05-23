@@ -1,0 +1,39 @@
+# default options
+display_on=0
+span_image=false
+lock_timeout=300
+fx_list=(dim blur dimblur pixel dimpixel color)
+dim_level=40
+blur_level=1
+pixel_scale=10,1000
+solid_color=333333
+wallpaper_cmd="feh --bg-fill"
+quiet=false
+
+# default theme
+loginbox=282828ff
+loginshadow=ebdbb200
+locktext="Type password to unlock..."
+font="Iosevka Nerd Font"
+ringcolor=ebdbb2ff
+insidecolor=ebdbb200
+separatorcolor=ebdbb200
+ringvercolor=ebdbb2ff
+insidevercolor=ebdbb200
+ringwrongcolor=ebdbb2ff
+insidewrongcolor=ff669dff
+timecolor=ebdbb2ff
+time_format="%H:%M:%S"
+greetercolor=ebdbb2ff
+layoutcolor=ebdbb2ff
+keyhlcolor=ff669dff
+bshlcolor=ff669dff
+veriftext="Verifying..."
+verifcolor=ebdbb2ff
+wrongtext="Failure!"
+wrongcolor=ff669dff
+modifcolor=ff669dff
+bgcolor=ebdbb2ff
+
+
+
