@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "ComicShannsMono Nerd Font",
+    "git.openRepositoryInParentFolders": "never",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "vscord.app.name": "Custom",
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 2,
+    "vscord.status.problems.enabled": false
+}

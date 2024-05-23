@@ -1,9 +1,13 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export NO_AT_BRIDGE=1
+eval $(dbus-launch --sh-syntax)
+export DBUS_SESSION_BUS_ADDRESS
+export DBUS_SESSION_BUS_PID
+export DBUS_SESSION_BUS_WINDOWID
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH=/opt/nvim-linux64/bin:$PATH
+# export PATH=/opt/nvim-linux64/bin:$PATH
 # export PATH=/opt/arduino-ide_2.2.1_Linux_64bit:$PATH
 export PATH=/opt/ghidra_11.0.1_PUBLIC:$PATH
 export PATH=/home/hanshi/.cargo/bin:$PATH
@@ -103,7 +107,9 @@ export TERM=xterm-256color
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias l="lsd"
-alias ls="lsd --all"
+alias ls="lsd"
+alias la="lsd -a"
+alias ll="lsd -al"
 alias cl="clear"
 alias x="exit"
 alias lv="/home/hanshi/.local/bin/lvim"
@@ -117,8 +123,15 @@ alias tm="tmux"
 alias cls="clear"
 alias cd="z"
 alias nvim="nvim -u ~/.config/nvim/init.lua"
-alias vim="nvim -u ~/.vimrc"
-alias code="codium"
+alias vim="vim -u ~/.vimrc"
+alias code="code-oss"
+alias nano="micro"
+
+# Alias for power management
+alias poweroff="loginctl poweroff"
+alias reboot="loginctl reboot"
+alias zzz="loginctl suspend"
+alias ZZZ="loginctl hibernate"
 
 # export VIMINIT='source $MYVIMRC'
 # export MYVIMRC='~/.config/nvim/init.lua'  #or any other location you want
@@ -178,26 +191,6 @@ if [ -n "$force_color_prompt" ]; then
         color_prompt=
     fi
 fi
-
-# ccd() {
-#   if [ -z "$1" ]; then
-#     builtin cd ~
-#   elif [ ! -d "$1" ]; then
-#     read "?not exist, create it? [Y/n] " response
-#     case "$response" in
-#       [yY]|"")
-#         mkdir -p "$1" && builtin cd "$1" && echo "created in $PWD."
-#         ;;
-#       *)
-#         echo "canceled."
-#         ;;
-#     esac
-#   else
-#     builtin cd "$1"
-#   fi
-# }
-
-# alias cd='ccd'
 
 git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
@@ -296,17 +289,11 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
 
-
-[ -f "/home/hanshi/.ghcup/env" ] && source "/home/hanshi/.ghcup/env" # ghcup-env
-
 export EDITOR="vim"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-# Created by `pipx` on 2023-10-19 13:51:56
-export PATH="$PATH:/home/hanshi/.local/bin"
 
 export M2_HOME=/opt/apache-maven-3.9.5
 export M2=$M2_HOME/bin

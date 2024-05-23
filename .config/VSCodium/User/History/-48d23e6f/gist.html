@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Projectile Motion Simulation</title>
+		<style>
+			body {
+				margin: 0;
+				overflow: hidden;
+			}
+			.controls {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				background: rgba(255, 255, 255, 0.8);
+				padding: 10px;
+				border-radius: 5px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			}
+			.controls input[type="range"] {
+				width: 100%;
+			}
+			.controls button {
+				margin-top: 10px;
+				padding: 10px;
+				width: 100%;
+				font-size: 16px;
+				border: none;
+				background: #007bff;
+				color: white;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			.controls button:disabled {
+				background: #aaa;
+				cursor: not-allowed;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container"></div>
+		<div class="controls">
+			<label for="angle-slider">Angle:</label>
+			<input type="range" id="angle-slider" min="0" max="90" value="45" />
+			<label for="speed-slider">Speed:</label>
+			<input type="range" id="speed-slider" min="10" max="100" value="50" />
+			<label for="height-slider">Height:</label>
+			<input type="range" id="height-slider" min="0" max="200" value="0" />
+			<button id="launch-button">Launch</button>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/konva/8.3.1/konva.min.js"></script>
+		<script type="module" src="/main.js">
+			
+		</script>
+	</body>
+</html>

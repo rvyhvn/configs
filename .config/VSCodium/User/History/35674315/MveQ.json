@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 3,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "ComicShannsMono Nerd Font",
+    "git.openRepositoryInParentFolders": "never",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false
+}

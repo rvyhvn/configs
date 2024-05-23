@@ -3,10 +3,13 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/hanshi/.config/awesome": "__default__profile__",
-            "file:///home/hanshi/configs/.config/awesome": "__default__profile__",
-            "file:///home/hanshi": "__default__profile__",
             "file:///home/hanshi/Documents/college/smt4/grafika-komputer/judi-parabola": "__default__profile__",
-            "file:///home/hanshi/configs/.config/VSCodium/User": "__default__profile__"
+            "file:///home/hanshi/configs/.config/VSCodium/User": "__default__profile__",
+            "file:///home/hanshi": "__default__profile__",
+            "file:///home/hanshi/Documents/college/4/grafkom/testbola": "__default__profile__",
+            "file:///home/hanshi/configs/.config/awesome": "__default__profile__",
+            "file:///home/hanshi/Documents/college/4/grafkom/raysims": "__default__profile__",
+            "file:///home/hanshi/Documents/college/4/grafkom/judi-parabola": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -17,7 +20,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/hanshi/configs/.config/VSCodium/User"
+                "folderUri": "file:///home/hanshi/Documents/college/4/grafkom/judi-parabola"
             }
         ],
         "emptyWindows": []
@@ -60,11 +63,65 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hanshi/Documents/college/4/grafkom/judi-parabola",
+                                        "path": "/home/hanshi/Documents/college/4/grafkom/judi-parabola",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/college/4/grafkom/judi-parabola"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hanshi/Documents/college/4/grafkom/raysims",
+                                        "path": "/home/hanshi/Documents/college/4/grafkom/raysims",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/college/4/grafkom/raysims"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hanshi/configs/.config/awesome",
+                                        "path": "/home/hanshi/configs/.config/awesome",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/configs/.config/awesome"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hanshi/Documents/college/4/grafkom/testbola",
+                                        "path": "/home/hanshi/Documents/college/4/grafkom/testbola",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/college/4/grafkom/testbola"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hanshi",
+                                        "path": "/home/hanshi",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/hanshi"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -134,6 +191,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -149,7 +213,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -495,7 +560,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Move Primary Side Bar Right"
+                                    "label": "&&Move Primary Side Bar Left"
                                 },
                                 {
                                     "id": "submenuitem.PanelPositionMenu",
@@ -569,8 +634,7 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
@@ -629,6 +693,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -722,8 +793,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -731,8 +801,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -741,8 +810,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1058,8 +1126,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1386,9 +1453,8 @@
                 "userSettingsLabel": "ctrl+shift+="
             },
             "workbench.action.zoomOut": {
-                "label": "Ctrl+NumPad_Subtract",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+numpad_subtract"
+                "label": "Ctrl+Shift+-",
+                "userSettingsLabel": "ctrl+shift+-"
             },
             "workbench.action.zoomReset": {
                 "label": "Ctrl+NumPad0",
@@ -1399,6 +1465,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1444,10 +1515,6 @@
             "workbench.action.navigateBack": {
                 "label": "Ctrl+Alt+-",
                 "userSettingsLabel": "ctrl+alt+-"
-            },
-            "workbench.action.navigateForward": {
-                "label": "Ctrl+Shift+-",
-                "userSettingsLabel": "ctrl+shift+-"
             },
             "workbench.action.navigateToLastEditLocation": {
                 "label": "Ctrl+K Ctrl+Q",
@@ -1635,7 +1702,7 @@
             "statusBarNoFolderBackground": "#1d2021"
         },
         "layoutInfo": {
-            "sideBarSide": "left",
+            "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
@@ -1646,14 +1713,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/hanshi/configs/.config/VSCodium/User",
-            "backupPath": "/home/hanshi/.config/VSCodium/Backups/6a52c63e335308c2dfde15fc640694ff",
+            "folder": "file:///home/hanshi/Documents/college/4/grafkom/judi-parabola",
+            "backupPath": "/home/hanshi/.config/VSCodium/Backups/37349063b0ff7dc296e5ee3252ecc05e",
             "uiState": {
                 "mode": 1,
-                "x": 966,
-                "y": 42,
-                "width": 944,
-                "height": 508
+                "x": 1644,
+                "y": 36,
+                "width": 400,
+                "height": 1037
             }
         },
         "openedWindows": []

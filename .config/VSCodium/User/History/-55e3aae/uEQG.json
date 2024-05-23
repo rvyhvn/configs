@@ -1,0 +1,10 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.fontFamily": "ComicShannsMono Nerd Font",
+    "editor.cursorStyle": "block",
+    "indentRainbow.includedLanguages": [
+        "javascript",
+    ],
+    "indentRainbow.indicatorStyle": "classic",
+  // we use a simple 1 pixel wide line
+}

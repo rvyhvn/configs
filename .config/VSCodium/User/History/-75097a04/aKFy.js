@@ -1,0 +1,169 @@
+import Konva from "konva";
+
+const width = window.innerWidth;
+const height = window.innerHeight;
+
+let stageScale = 1;
+let stagePosition = { x: width / 2, y: height / 2 };
+let groundPoints = [-width, 0, width, 0];
+let groundPos = { x: 0, y: 200 };
+
+const stage = new Konva.Stage({
+  container: "container",
+  width: width,
+  height: height - 50,
+  x: stagePosition.x,
+  y: stagePosition.y,
+  scaleX: stageScale,
+  scaleY: stageScale,
+  draggable: true,
+  dragBoundFunc: function (pos) {
+    stagePosition.x += pos.x - stage.x();
+    stagePosition.y += pos.y - stage.y();
+    return pos;
+  },
+});
+
+const layer = new Konva.Layer();
+
+const ground = new Konva.Line({
+  points: groundPoints,
+  stroke: "black",
+  strokeWidth: 1,
+  x: 0,
+  y: 200,
+});
+
+const tire = new Konva.Circle({
+  x: -200,
+  y: stagePosition.y / 2,
+  strokeWidth: 2,
+  stroke: "black",
+  fill: "black",
+  radius: 35,
+  draggable: true,
+  dragBoundFunc: function(pos) {
+    return {
+      x: this.getAbsolutePosition().x,
+      y: pos.y,
+    }
+  }
+
+});
+
+const innerTire = new Konva.Circle({
+  x: tire.x(),
+  y: tire.y(),
+  strokeWidth: 0.5,
+  stroke: "blue",
+  fill: "blue",
+  radius: 15,
+});
+
+const cannonBody = new Konva.Rect({
+  x: tire.x() ,
+  y: tire.y() -  50,
+  width: 180,
+  height: 100,
+  fill: "grey",
+  cornerRadius: [60, 0, 0, 60],
+  rotation: 0,
+  offsetX: 35,
+  offsetY: 50,
+});
+
+const cannonMuzzle = new Konva.Rect({
+  fill: "black",
+  x: cannonBody.x() + cannonBody.width() - 35,
+  y: cannonBody.y() - 50,
+  width: 20,
+  height: 100,
+  stroke: "black",
+  strokeWidth: 1,
+  // offsetX: -145,
+  // offsetY: -50,
+});
+
+
+tire.on("dragmove", function() {
+    console.log(`ball: ${this.x(), this.y()}, cannonBody: ${cannonBody.x(), cannonBody.y()}`)
+    innerTire.x(this.x());
+    innerTire.y(this.y());
+    cannonBody.x(this.x());
+    cannonBody.y(this.y() -  50);
+    cannonMuzzle.x(cannonBody.x() + cannonBody.width());
+    cannonMuzzle.y(cannonBody.y());
+});
+
+cannonBody.on("wheel", (e) => {
+  e.evt.preventDefault();
+
+  let newRotation = cannonBody.rotation() + (e.evt.deltaY > 0 ? 5 : -5);
+  newRotation = Math.max(-90, Math.min(90, newRotation));
+  cannonBody.rotation(newRotation);
+  updateMuzzlePosition();
+});
+
+// function updateMuzzlePosition() {
+//   const cannonBodyRotation = Konva.Util.degToRad(cannonBody.rotation());
+//   const cannonMuzzleOffsetX = Math.cos(cannonBodyRotation) * cannonBody.width();
+//   const cannonMuzzleOffsetY = Math.sin(cannonBodyRotation) * cannonBody.width();
+//   const cannonMuzzleOffsetXLessThan90 = Math.cos(cannonBodyRotation) * cannonBody.width();
+//   const cannonMuzzleOffsetYLessThan90 = Math.sin(cannonBodyRotation) * cannonBody.width();
+//   if (cannonBody.rotation() > 0 ) {
+//     cannonMuzle.x(cannonBody.x() + cannonMuzzleOffsetX + cannonBody.offsetY());
+//     cannonMuzle.y(cannonBody.y() + cannonMuzzleOffsetY - cannonBody.offsetY());
+//     cannonMuzle.rotation(cannonBody.rotation());
+
+//   } else {
+//     cannonMuzle.x(cannonBody.x() + cannonMuzzleOffsetXLessThan90 - cannonBody.offsetY());
+//     cannonMuzle.y(cannonBody.y() + cannonMuzzleOffsetYLessThan90 + cannonBody.offsetY());
+//     cannonMuzle.rotation(cannonBody.rotation());
+
+//   }
+// }
+
+// function updateMuzzlePosition() {
+//   const cannonBodyRotation = Konva.Util.degToRad(cannonBody.rotation());
+//   const cannonMuzzleOffsetX = Math.cos(cannonBodyRotation) * (cannonBody.width() - 35);
+//   const cannonMuzzleOffsetY = Math.sin(cannonBodyRotation) * (cannonBody.width() - 35);
+//   cannonMuzzle.x(cannonBody.x() + cannonMuzzleOffsetX);
+//   cannonMuzzle.y(cannonBody.y() + cannonMuzzleOffsetY);
+//   cannonMuzzle.rotation(cannonBody.rotation());
+// }
+
+function updateMuzzlePosition() {
+  cannonMuzzle.x(cannonBody.x());
+  cannonMuzzle.y(cannonBody.y());
+  cannonMuzzle.rotation(cannonBody.rotation());
+}
+
+layer.add(ground);
+layer.add(cannonBody, cannonMuzzle, tire, innerTire);
+stage.add(layer);
+
+let prevPointerPosition = { x: 0, y: 0 };
+
+stage.on("pointermove", () => {
+  prevPointerPosition = stage.getPointerPosition();
+});
+
+stage.on("dragmove", () => {
+  const currentPointerPosition = stage.getPointerPosition();
+  const offsetX = currentPointerPosition.x - prevPointerPosition.x;
+  const offsetY = currentPointerPosition.y - prevPointerPosition.y;
+  stagePosition.x += offsetX;
+  stagePosition.y += offsetY;
+
+  const newMinX =
+    Math.min(...groundPoints.filter((_, i) => i % 2 === 0)) - offsetX;
+  const newMaxX =
+    Math.max(...groundPoints.filter((_, i) => i % 2 === 0)) - offsetX;
+  groundPoints = [newMinX, 0, newMaxX, 0];
+  stagePosition.x = stage.x();
+  stagePosition.y = stage.y();
+  ground.setPoints(groundPoints);
+
+  layer.batchDraw();
+  prevPointerPosition = currentPointerPosition;
+});

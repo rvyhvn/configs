@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "ComicShannsMono Nerd Font",
+    "git.openRepositoryInParentFolders": "never",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 2,
+    "vscord.status.problems.enabled": false,
+    "vscord.status.details.text.idle": "ngopi",
+    "vscord.status.state.text.idle": "ngopi",
+    "vscord.status.state.text.editing": "editing {file_name}{file_extension}",
+    "vscord.status.state.text.viewing": "ngecek {file_name}{file_extension}",
+    "vscord.status.image.large.editing.text": "ngedit file {LANG} ",
+    "vscord.status.image.large.idle.text": "gi ngopi",
+    "vscord.status.image.large.viewing.text": "ngecek file {LANG} ",
+    "vscord.status.details.text.debugging": "nge-debug {file_name}{file_extension}",
+    "vscord.status.details.text.editing": "workspace: {workspace} {problems}",
+    "vscord.status.details.text.notInFile": "not in a file!",
+    "vscord.status.details.text.viewing": "workspace: {workspace} {problems}",
+    "vscord.status.state.text.debugging": "ngedebug: {workspace}",
+    "vscord.status.image.large.debugging.text": "nge-debug file {LANG}"
+}
