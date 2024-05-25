@@ -10,6 +10,7 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- require("awful.hotkeys_popup.keys")
 local terminal = "wezterm"
 local file_manager = "ranger"
+local browser = "chromium"
 local altkey = "Mod1"
 local modkey = "Mod4"
 
@@ -70,6 +71,10 @@ local globalkeys = gears.table.join(
     { description = "open a terminal", group = "launcher" }),
   awful.key({ modkey, }, "e", function() awful.spawn(file_manager) end,
     { description = "open a file manager", group = "launcher" }),
+  awful.key({ modkey, }, "b", function() awful.spawn(browser) end,
+    { description = "open a browser", group = "launcher" }),
+  awful.key({ modkey, }, "c", function() awful.spawn("code-oss") end,
+    { description = "open a gui text editor", group = "launcher" }),
   awful.key({ modkey, "Control" }, "r", awesome.restart,
     { description = "reload awesome", group = "awesome" }),
   awful.key({ modkey, "Shift" }, "q", awesome.quit,
