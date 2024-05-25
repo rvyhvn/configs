@@ -69,10 +69,25 @@ local rules = {
     rule = { class = "Firefox" },
     properties = { screen = 1, tag = "1" }
   },
-
   {
     rule = { class = "Code - OSS" },
     properties = { screen = 1, tag = "2" }
+  },
+  {
+    rule = { class = "qutebrowser" },
+    properties = { screen = 1, tag = "1" }
+  },
+  {
+    rule = { class = "Spotify" },
+    properties = { screen = 1, tag = "4" }
+  },
+  {
+    rule = { class = "discord" },
+    properties = { screen = 1, tag = "4" }
+  },
+  {
+    rule = { class = "Signal" },
+    properties = { screen = 1, tag = "4" }
   },
 
 }

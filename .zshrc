@@ -123,7 +123,7 @@ alias tm="tmux"
 alias cls="clear"
 alias cd="z"
 alias nvim="nvim -u ~/.config/nvim/init.lua"
-alias vim="vim -u ~/.vimrc"
+alias vim="/bin/vim -u ~/.vimrc"
 alias code="code-oss"
 alias nano="micro"
 

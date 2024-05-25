@@ -81,7 +81,7 @@ theme.notification_border_color                 = "#689d6a"
 -- theme.menu_border_width =
 theme.menu_submenu_icon                         = themes_path .. "default/submenu.png"
 theme.menu_height                               = dpi(15)
-theme.menu_width                                = dpi(100)
+theme.menu_width                                = dpi(150)
 
 -- You can add as many variables as
 -- you wish and access them by using

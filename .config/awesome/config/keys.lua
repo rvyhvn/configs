@@ -8,8 +8,8 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 -- require("awful.hotkeys_popup.keys")
-local terminal = "kitty"
-local file_manager = "kitty ranger"
+local terminal = "wezterm"
+local file_manager = "ranger"
 local altkey = "Mod1"
 local modkey = "Mod4"
 
@@ -128,6 +128,17 @@ local globalkeys = gears.table.join(
     end,
     { description = 'toggle mute', group = 'hotkeys' }
   ),
+  awful.key({ altkey, "Shift" }, "r", function() awful.spawn.with_shell("loginctl reboot") end,
+    { description = "reboot", group = "hotkeys" }
+  ),
+  awful.key({ altkey, "Shift" }, "s", function() awful.spawn.with_shell("loginctl poweroff") end,
+    { description = "shutdown", group = "hotkeys" }),
+  awful.key({ altkey, "Shift" }, "h", function()
+    awful.spawn.with_shell("loginctl hibernate")
+  end, { description = "hibernate", group = "hotkeys" }),
+  awful.key({ altkey, "Shift" }, "z", function()
+    awful.spawn.with_shell("loginctl suspend")
+  end, { description = "sleep", group = "hotkeys" }),
 
   -- Prompt
   awful.key({ modkey }, "r", function() awful.spawn.with_shell("rofi -show drun") end,

@@ -6,7 +6,7 @@ local run_on_start_up = {
   'xfce4-power-manager',
   'flameshot',
   'pipewire',
-  'pnmixer',
+  'pnmixer'
 }
 
 local function run_once(cmd)
@@ -21,4 +21,3 @@ end
 for _, app in ipairs(run_on_start_up) do
   run_once(app)
 end
-
