@@ -3,10 +3,10 @@ local awful = require('awful')
 
 local run_on_start_up = {
   'nm-applet --indicator',
-  'xfce4-power-manager',
-  'flameshot',
   'pipewire',
-  'pnmixer'
+  'pnmixer',
+  'flameshot',
+  'xfce4-power-manager'
 }
 
 local function run_once(cmd)

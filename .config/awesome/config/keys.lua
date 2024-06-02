@@ -8,8 +8,8 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 -- require("awful.hotkeys_popup.keys")
-local terminal = "wezterm"
-local file_manager = "ranger"
+local terminal = "kitty"
+local file_manager = "pcmanfm"
 local browser = "chromium"
 local altkey = "Mod1"
 local modkey = "Mod4"
@@ -75,6 +75,8 @@ local globalkeys = gears.table.join(
     { description = "open a browser", group = "launcher" }),
   awful.key({ modkey, }, "c", function() awful.spawn("code-oss") end,
     { description = "open a gui text editor", group = "launcher" }),
+  awful.key({ "Shift", }, "Print", function() awful.spawn("flameshot gui") end,
+    { description = "screenshot", group = "launcher" }),
   awful.key({ modkey, "Control" }, "r", awesome.restart,
     { description = "reload awesome", group = "awesome" }),
   awful.key({ modkey, "Shift" }, "q", awesome.quit,

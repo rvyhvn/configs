@@ -90,7 +90,7 @@ local rules = {
     properties = { screen = 1, tag = "4" }
   },
   {
-    rule = { class = "chromium-browser" },
+    rule = { class = "Chromium-browser" },
     properties = { screen = 1, tag = "1" }
   },
 
