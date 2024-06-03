@@ -135,15 +135,15 @@ local globalkeys = gears.table.join(
     end,
     { description = 'toggle mute', group = 'hotkeys' }
   ),
-  awful.key({ altkey, "Shift" }, "r", function() awful.spawn.with_shell("loginctl reboot") end,
+  awful.key({ altkey, "Shift" }, "R", function() awful.spawn.with_shell("loginctl reboot") end,
     { description = "reboot", group = "hotkeys" }
   ),
-  awful.key({ altkey, "Shift" }, "s", function() awful.spawn.with_shell("loginctl poweroff") end,
+  awful.key({ altkey, "Shift" }, "S", function() awful.spawn.with_shell("loginctl poweroff") end,
     { description = "shutdown", group = "hotkeys" }),
-  awful.key({ altkey, "Shift" }, "h", function()
+  awful.key({ altkey, "Shift" }, "H", function()
     awful.spawn.with_shell("loginctl hibernate")
   end, { description = "hibernate", group = "hotkeys" }),
-  awful.key({ altkey, "Shift" }, "z", function()
+  awful.key({ altkey, "Shift" }, "Z", function()
     awful.spawn.with_shell("loginctl suspend")
   end, { description = "sleep", group = "hotkeys" }),
 
