@@ -11,6 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # export PATH=/opt/arduino-ide_2.2.1_Linux_64bit:$PATH
 export PATH=/opt/ghidra_11.0.1_PUBLIC:$PATH
 export PATH=/home/hanshi/.cargo/bin:$PATH
+LS_COLORS='~/.lscolors.sh'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -106,7 +107,7 @@ export TERM=xterm-256color
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias l="lsd"
+alias l="lsd -l"
 alias ls="lsd"
 alias la="lsd -a"
 alias ll="lsd -al"
