@@ -1,0 +1,15 @@
+e asm.describe = true
+e asm.cmt.refs = true
+e asm.lines.bb = true
+e asm.lines.call = true
+e asm.lines.ret = true
+e asm.section = true
+e asm.section.col = 20
+e asm.bytes.space = true
+e scr.utf8 = true
+
+e scr.color = 3
+e scr.rainbow = 1
+
+
+eco gb
