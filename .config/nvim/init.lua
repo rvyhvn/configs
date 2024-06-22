@@ -121,6 +121,17 @@ require("lazy").setup({
     ---@param opts cn.ConfigSchema
     opts = {}
   },
+  {
+    'TobinPalmer/pastify.nvim',
+    cmd = { 'Pastify', 'PastifyAfter' },
+    config = function()
+      require('pastify').setup {
+        opts = {
+          apikey = "b69c8f588bd3848d019177727bbfc330", -- Needed if you want to save online.
+        },
+      }
+    end
+  },
 
 })
 require("base")

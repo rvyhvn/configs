@@ -85,11 +85,11 @@ local require_configs = {
 -- Set up autocmds
 vim.cmd('autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE')
 vim.cmd("colorscheme gruvbox")
--- vim.cmd('highlight ExtraWhitespace ctermfg=166 guifg=#d65d0e')
--- vim.cmd("match ExtraWhitespace /\\s\\+$/")
--- vim.cmd("autocmd BufWinEnter * match ExtraWhitespace /\\s\\+$/")
--- vim.cmd("autocmd InsertEnter * match ExtraWhitespace /\\s\\+\\%#\\@<!$/")
--- vim.cmd("autocmd InsertLeave * match ExtraWhitespace /\\s\\+$/")
+vim.cmd('highlight ExtraWhitespace ctermfg=166 guifg=#d65d0e')
+vim.cmd("match ExtraWhitespace /\\s\\+$/")
+vim.cmd("autocmd BufWinEnter * match ExtraWhitespace /\\s\\+$/")
+vim.cmd("autocmd InsertEnter * match ExtraWhitespace /\\s\\+\\%#\\@<!$/")
+vim.cmd("autocmd InsertLeave * match ExtraWhitespace /\\s\\+$/")
 
 vim.api.nvim_create_autocmd('TextYankPost', {
   pattern = "*",
@@ -113,7 +113,7 @@ vim.api.nvim_create_autocmd("BufReadPost", {
 })
 
 -- Create an autocmd to highlight trailing whitespace in normal mode
---[[ vim.api.nvim_create_autocmd({ "BufWinEnter", "FocusGained" }, {
+vim.api.nvim_create_autocmd({ "BufWinEnter", "FocusGained" }, {
   pattern = { "*" },
   callback = function()
     vim.cmd("match ExtraWhitespace /\\v\\s+$/")
@@ -125,7 +125,7 @@ vim.api.nvim_create_autocmd({ "InsertEnter" }, {
   callback = function()
     vim.cmd("match ExtraWhitespace //")
   end,
-}) ]]
+})
 
 for _, config in ipairs(require_configs) do
   require(config)

@@ -5,11 +5,11 @@ e asm.lines.call = true
 e asm.lines.ret = true
 e asm.section = true
 e asm.section.col = 20
-e asm.bytes.space = true
+e asm.bytes.space = false
 e scr.utf8 = true
 
 e scr.color = 3
-e scr.rainbow = 1
+e scr.rainbow = 0
 
 
 eco gb

@@ -14,6 +14,7 @@
   "nvim-treesitter": { "branch": "master", "commit": "9860fceb73eb85a9ad424513fe163e6506dfb1fd" },
   "nvim-treesitter-endwise": { "branch": "master", "commit": "60e8c288e011403f248b5f6478dde12bed8a6c55" },
   "nvim-web-devicons": { "branch": "master", "commit": "7f30f2da3c3641841ceb0e2c150281f624445e8f" },
+  "pastify.nvim": { "branch": "main", "commit": "65cb31402b44f0ff52f9ff49a60d15732e6e1851" },
   "plenary.nvim": { "branch": "master", "commit": "4f71c0c4a196ceb656c824a70792f3df3ce6bb6d" },
   "rainbow-delimiters.nvim": { "branch": "master", "commit": "48c579c0079ef34189924d86a3908e29e275ee40" },
   "resession.nvim": { "branch": "master", "commit": "742aba4998123fc11f490a3aeffe8f550b2cb789" },

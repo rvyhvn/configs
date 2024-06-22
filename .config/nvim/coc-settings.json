@@ -1,29 +1,4 @@
 {
-	"languageserver": {
-		"ruby-lsp": {
-			"command": "ruby-lsp",
-			"initializationOptions": {
-				"experimentalFeaturesEnabled": false,
-				"enabledFeatures": [
-					"codeActions",
-					"diagnostics",
-					"documentHighlights",
-					"documentLink",
-					"documentSymbols",
-					"foldingRanges",
-					"formatting",
-					"hover",
-					"inlayHint",
-					"onTypeFormatting",
-					"selectionRanges",
-					"semanticHighlighting",
-					"completion"
-				],
-				"formatter": "auto"
-			},
-			"filetypes": ["ruby"]
-		}
-	},
 	"suggest.autoTrigger": "always",
 	"suggest.enablePreview": true,
 	"suggest.enablePreselect": true,
@@ -68,9 +43,6 @@
 		"style.css",
 		"/style.css"
 	],
-  "html-css-support.enabledLanguages": [
-    "html",
-    "vue"
-  ],
-  "snippets.ultisnips.pythonPrompt": false
+	"html-css-support.enabledLanguages": ["html", "vue"],
+	"snippets.ultisnips.pythonPrompt": false
 }
